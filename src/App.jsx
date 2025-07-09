@@ -15,22 +15,24 @@ function Navbar() {
       <div className="logo">Neural Engineering Lab | IIT Guwahati</div>
       <div className="nav-links">
         <Link to="/">Home</Link>
-        <div className="dropdown">
+        <Link to="/team">The Team</Link>
+        {/* <div className="dropdown">
           <button className="dropbtn">People ▾</button>
           <div className="dropdown-content">
             <Link to="/about">About PI</Link>
             <Link to="/team">The Team</Link>
           </div>
-        </div>
+        </div> */}
         <Link to="/publications">Publications</Link>
-        <div className="dropdown">
+        <Link to="/research">Research</Link>
+        {/* <div className="dropdown">
           <button className="dropbtn">Research ▾</button>
           <div className="dropdown-content">
             <Link to="/research/eeg">EEG-based applications</Link>
             <Link to="/research/mri">sMRI-based applications</Link>
             <Link to="/research/media">Research in Media</Link>
           </div>
-        </div>
+        </div> */}
         <Link to="/gallery">Gallery</Link>
         <Link to="/contact">Contact</Link>
       </div>
