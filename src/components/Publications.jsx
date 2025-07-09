@@ -162,11 +162,95 @@ const conferencePubs = [
         link: "https://doi.org/10.1109/INDICON59947.2023.10440727"
     },
     {
-        title: "Low-Latency EEG Processing for Mobile Interfaces",
-        authors: "A. Roy, R. Narayan",
-        journal: "IEEE EMBC",
+        title: "Multivariate Data-Driven Approach to Identify Reliable Neural Components and Latency in a P300 Dataset Using Correlated Component Analysis",
+        authors: "K Hazarika, CN Gupta",
+        journal: "Advances in Data-driven Computing and Intelligent Systems. Lecture Notes in Networks and Systems, vol 653. Springer, Singapore",
+        year: 2023,
+        link: "https://doi.org/10.1007/978-981-99-0981-0_7"
+    },
+    {
+        title: "Experimental results from a proof-of-concept method for accurate volumetric estimation of hematoma in asymmetrically formed objects comprising solid materials as impediments",
+        authors: "R Bhagawati, S Chanda, CN Gupta and S Hazarika",
+        journal: "2023 10th International Conference on Signal Processing and Integrated Networks (SPIN), Noida, India, 2023, pp. 1-6",
+        year: 2023,
+        link: "https://ieeexplore.ieee.org/document/10116436"
+    },
+    {
+        title: "Smartphone-based natural environment electroencephalogram experimentation-opportunities and challenges",
+        authors: "D Hazarika, S Chanda, CN Gupta",
+        journal: "2022 IEEE-EMBS Conference on Biomedical Engineering and Sciences (IECBES)",
+        year: 2022,
+        link: "https://ieeexplore.ieee.org/abstract/document/10079412"
+    },
+    {
+        title: "Cross-session Classification of Mental Workload Levels using Recurrent Neural Networks",
+        authors: "KN Vishnu, S Madhavan, CN Gupta",
+        journal: "IEEE Symposium Series on Computational Intelligence (SSCI)",
+        year: 2022,
+        link: "https://ieeexplore.ieee.org/abstract/document/10022261"
+    },
+    {
+        title: "Neural Correlates of Motor Imagery during Action Observation in Affordance-based Actions: Preliminary Results",
+        authors: "S Bordoloi, P Saikia, CN Gupta, SM Hazarika",
+        journal: "44th Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC)",
+        year: 2022,
+        link: "https://ieeexplore.ieee.org/abstract/document/9871587/"
+    },
+    {
+        title: "Sparsity Dependent Metrics Depict Alteration of Brain Network Connectivity in Parkinson's Disease",
+        authors: "T Samantaray, J Saini, CN Gupta",
+        journal: "44th Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC)",
+        year: 2022,
+        link: "https://ieeexplore.ieee.org/abstract/document/9871258"
+    },
+    {
+        title: "Precise volumetric quantification of blood (hematoma) in deformable solids/organs: preliminary results based on a proof-of-concept scheme",
+        authors: "R Bhagawati, S Hazarika, CN Gupta, S Chanda",
+        journal: "International Conference on Electrical, Computer and Energy Technologies",
         year: 2021,
-        link: "https://embc.embs.org/2022/papers/5678.pdf"
+        link: "https://ieeexplore.ieee.org/abstract/document/9698475"
+    },
+    {
+        title: "ICEEMD based data driven filtering for P300 BCIs",
+        authors: "S Madhavan, CN Gupta",
+        journal: "Neuroergonomics conference",
+        year: 2021,
+        link: "https://neuroergonomicsconference.um.ifi.lmu.de/wp-content/uploads/submissions/151.pdf"
+    },
+    {
+        title: "Empirical Mode Decomposition Algorithms for Classification of Single-Channel EEG Manifesting McGurk Effect",
+        authors: "AK Pal, Dipanjan Roy, G. Vinodh Kumar, Bipra Chatterjee, L. N. Sharma, Arpan Banerjee, and C.N. Gupta",
+        journal: "International Conference Series on Intelligent Human Computer Interaction",
+        year: 2019,
+        link: "https://ihciconf.org/2019/accepted-papers/"
+    },
+    {
+        title: "Performance Evaluation of Manifold Algorithms on a P300 Paradigm Based Online BCI Dataset",
+        authors: "B Chatterjee, R Palaniappan, and CN Gupta",
+        journal: "Mediterranean Conference on Medical and Biological Engineering and Computing",
+        year: 2019,
+        link: "https://link.springer.com/chapter/10.1007/978-3-030-31635-8_231"
+    },
+    {
+        title: "Performance Optimized Approach for Automatic Fiducial Localization in Medical Imaging to Assist Robot-guided Neurosurgery",
+        authors: "S Panwar, CN Gupta",
+        journal: "IEEE EMBS International Student Conference 2018, Bangalore",
+        year: 2018,
+        link: "https://www.iitg.ac.in/cngupta/publications/conference/ieee_paper.pdf"
+    },
+    {
+        title: "A Comparative Study Between Random Forest and BLDA on P300 Paradigm Based BCI",
+        authors: "B Chatterjee, AK Pal, CN Gupta",
+        journal: "The fifth Annual Conference of Cognitive Science, Indian Institute of Technology Guwahati",
+        year: 2018,
+        link: ""
+    },
+    {
+        title: "Deciphering two dimensional clustering from genetics for clinical subtyping in Alzheimer's Neuroimaging datasets",
+        authors: "A Siroha, CN Gupta",
+        journal: "Brainmodes conference, Delhi",
+        year: 2017,
+        link: ""
     },
 ];
 
