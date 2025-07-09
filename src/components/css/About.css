@@ -1,0 +1,50 @@
+.lab-pi-page h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.pi-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 40px;
+}
+
+@media (min-width: 768px) {
+    .pi-header {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+}
+
+.pi-image-rounded {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.pi-bio {
+    max-width: 700px;
+}
+
+.pi-bio h2 {
+    margin-bottom: 10px;
+}
+
+.pi-section {
+    margin: 40px auto;
+    max-width: 800px;
+    text-align: left;
+}
+
+.pi-section h3 {
+    margin-bottom: 12px;
+    color: #003366;
+}
+
+.pi-section p {
+    font-size: 15px !important;
+}

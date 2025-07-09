@@ -1,0 +1,48 @@
+.publications-page {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.publications-page h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.publications-page h2 {
+    margin-top: 40px;
+    color: #003366;
+}
+
+.publications-page h3 {
+    margin-top: 25px;
+    color: #444;
+    font-size: 1.2rem;
+}
+
+.pub-list {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 10px;
+}
+
+.pub-item {
+    margin-bottom: 16px;
+}
+
+.pub-meta {
+    font-size: 0.95rem;
+    color: #555;
+    margin-top: 4px;
+}
+
+.pub-list a {
+    text-decoration: none;
+    color: #0056aa;
+    transition: color 0.2s ease;
+}
+
+.pub-list a:hover {
+    color: #003366;
+    text-decoration: underline;
+}

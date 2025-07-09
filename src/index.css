@@ -1,0 +1,133 @@
+/* Global Styles */
+body {
+  font-family: 'Segoe UI', 'Roboto', sans-serif;
+  background-color: #f8f9fc;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1,
+h2,
+h3 {
+  color: #003366;
+  margin-bottom: 15px;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #003366;
+  color: white;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.nav-links a {
+  color: white;
+  margin-left: 25px;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #ffd166;
+}
+
+/* Dropdown */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  margin-left: 25px;
+  font-weight: 500;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  z-index: 10;
+  top: 100%;
+  left: 0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+  color: #003366;
+  padding: 12px 18px;
+  text-decoration: none;
+  display: block;
+  font-weight: 500;
+}
+
+.dropdown-content a:hover {
+  background-color: #f0f0f0;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Pages */
+.page {
+  padding: 50px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.page p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 20px 0;
+}
+
+/* Footer */
+.footer {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 50px;
+  font-size: 14px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .nav-links {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+  }
+
+  .nav-links a,
+  .dropbtn {
+    margin: 10px 0;
+  }
+}
