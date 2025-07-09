@@ -1,21 +1,39 @@
 
-# Neural Lab Website 2025
+# Neural Engineering Lab Website
 
 ## 📂 Project Structure
 
 ``
 neural_lab/
 ├── public/
-│   └── images/
-│       ├── gallery1.jpg
-│       ├── gallery2.jpg
-│       ├── gallery3.jpg
-│       └── gallery4.jpg
+│   ├── images/
+│   │   ├── gallery/
+│   │   ├── home_page/
+│   │   ├── logo/
+│   │   ├── profile_pic/
+│   ├── index.html
 ├── src/
 │   ├── App.jsx
 │   ├── index.js
-│   └── index.css
+│   ├── index.css
+│   ├── components/
+│   │   ├── About.jsx
+│   │   ├── Contact.jsx
+│   │   ├── Gallery.jsx
+│   │   ├── Home.jsx
+│   │   ├── Publications.jsx
+│   │   ├── Research.jsx
+│   │   ├── Team.jsx
+│   │   ├── css/
+│   │   │   ├── About.css
+│   │   │   ├── Contact.css
+│   │   │   ├── Gallery.css
+│   │   │   ├── Home.css
+│   │   │   ├── Publications.css
+│   │   │   ├── Team.css
 ├── package.json
+├── package-lock.json
+├── .gitignore
 └── README.md
 ```
 
@@ -52,4 +70,4 @@ Place your research images inside the `public/images/` folder, replacing the pla
 
 ---
 
-© 2025 Research Lab. All rights reserved.
+© 2025 Neural Engineering Lab. All rights reserved.
