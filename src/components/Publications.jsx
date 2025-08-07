@@ -46,6 +46,13 @@ const journalPubs = [
         link: "https://doi.org/10.1088/2057-1976/ad1e77"
     },
     {
+        title: " CameraEEG: Synchronous Recording of Electroencephalogram and Video Data for Neuroergonomics Applications",
+        authors: "D Hazarika; S Madhavan ; CN Gupta",
+        journal: "Eng. Proc. 2023, 55, 46",
+        year: 2023,
+        link: "https://doi.org/10.3390/engproc2023055046"
+    },
+    {
         title: "Unique Brain Network Identification Number for Parkinson’s and Healthy Individuals Using Structural MRI",
         authors: "T Samantaray, U Gupta, J Saini, CN Gupta",
         journal: "Brain Sciences",

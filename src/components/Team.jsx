@@ -50,7 +50,7 @@ const teamData = {
     {
       name: "Hari Prasath B",
       role: "MTech Student",
-      info: "Android Development",
+      info: "Electrooculography, Deep Learning",
       image: "/images/profile_pic/hari.jpg",
       scholar: "https://scholar.google.com/",
       linkedin: "https://linkedin.com/"
