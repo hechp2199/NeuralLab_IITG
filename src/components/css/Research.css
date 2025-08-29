@@ -40,6 +40,10 @@
     line-height: 1.6;
 }
 
+.research-content p {
+    text-align: justify;
+}
+
 .video-container {
     margin-top: 20px;
     position: relative;

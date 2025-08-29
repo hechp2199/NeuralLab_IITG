@@ -82,7 +82,7 @@
     font-size: 1rem;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .alumni-links {
@@ -99,4 +99,30 @@
 
 .alumni-links img:hover {
     transform: scale(1.1);
+}
+
+.alumni-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.alumni-table th,
+.alumni-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.alumni-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.alumni-table tr:nth-child(even) {
+    background-color: #fafafa;
+}
+
+.alumni-table tr:hover {
+    background-color: #f1f1f1;
 }

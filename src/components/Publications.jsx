@@ -286,7 +286,6 @@ function Publications() {
                 <h2>Journal Articles</h2>
                 {sortedJournalYears.map((year) => (
                     <div key={year}>
-                        <h3>{year}</h3>
                         <ul className="pub-list">
                             {journalByYear[year].map((pub, index) => (
                                 <li key={index} className="pub-item">
@@ -294,7 +293,7 @@ function Publications() {
                                         {pub.title}
                                     </a>
                                     <div className="pub-meta">
-                                        {pub.authors} — <i>{pub.journal}</i>
+                                        {pub.authors} — <i>{pub.journal}</i> - ({year})
                                     </div>
                                 </li>
                             ))}
@@ -308,7 +307,6 @@ function Publications() {
                 <h2>Conference Proceedings</h2>
                 {sortedConferenceYears.map((year) => (
                     <div key={year}>
-                        <h3>{year}</h3>
                         <ul className="pub-list">
                             {conferenceByYear[year].map((pub, index) => (
                                 <li key={index} className="pub-item">

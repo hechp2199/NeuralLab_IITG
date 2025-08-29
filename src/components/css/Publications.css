@@ -21,9 +21,9 @@
 }
 
 .pub-list {
-    list-style-type: none;
     padding-left: 0;
     margin-top: 10px;
+    text-align: justify;
 }
 
 .pub-item {
