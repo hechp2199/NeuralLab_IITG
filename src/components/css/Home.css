@@ -1,19 +1,108 @@
 /* Slideshow */
 .slideshow {
-  max-width: 600px;
-  margin: 30px auto;
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
   position: relative;
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 .slideshow img {
   width: 100%;
-  max-height: 330px;
-  height: auto;
+  height: 450px;
+  object-fit: cover;
   display: block;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   transition: opacity 0.5s ease-in-out;
+}
+
+.focus-bulletin-modern {
+  display: block;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+.research-focus-modern {
+  flex: 1.2;
+  min-width: 320px;
+  padding: 25px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #eef3ff, #ffffff);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  text-align: justify;
+  margin: 0 auto 30px auto;
+  width: 80%; 
+}
+
+.research-focus-modern h2 {
+  margin-bottom: 15px;
+  color: #003366;
+  text-align: center;
+}
+
+.research-focus-modern p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.bulletin-modern {
+  flex: 0.8;
+  min-width: 280px;
+  padding: 20px;
+  border-radius: 12px;
+  background: #fdfdfd;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+  position: relative;
+  margin: 0 auto 30px auto;
+  width: 80%;
+  text-align: center;
+}
+
+.bulletin-modern h2 {
+  margin-bottom: 15px;
+  color: #003366;
+}
+
+.bulletin-ticker {
+  height: 60px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.bulletin-ticker p {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #222;
+  animation: fadeInOut 4s infinite;
+}
+
+@keyframes fadeInOut {
+  0% { opacity: 0; transform: translateY(20px); }
+  10% { opacity: 1; transform: translateY(0); }
+  90% { opacity: 1; transform: translateY(0); }
+  100% { opacity: 0; transform: translateY(-20px); }
+}
+
+.view-all-link {
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 0.9rem;
+  color: #0066cc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.view-all-link:hover {
+  color: #003366;
 }

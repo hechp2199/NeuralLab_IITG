@@ -30,6 +30,10 @@
     max-width: 700px;
 }
 
+.pi-bio p{
+    text-align: justify;
+}
+
 .pi-bio h2 {
     margin-bottom: 10px;
 }

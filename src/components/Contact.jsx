@@ -27,6 +27,14 @@ function Contact() {
           </li>
         </ul>
       </div>
+      <div className='important-links'>
+        <h2>Important Links</h2>
+        <div className='links-list'>
+          <p><a href='https://scholar.google.com/citations?hl=en&user=31K9iDoAAAAJ&view_op=list_works&sortby=pubdate' target='_blank' rel='noreferrer'>Google Scholar</a></p>
+          <p><a href='https://www.researchgate.net/profile/Cota-Gupta' target='_blank' rel='noreferrer'>ResearchGate</a></p>
+          <p><a href='https://github.com/NeuralLabIITGuwahati' target='_blank' rel='noreferrer'>GitHub Repository</a></p>
+        </div>
+      </div>
     </div>
   );
 }
