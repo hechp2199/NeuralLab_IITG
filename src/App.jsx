@@ -7,6 +7,7 @@ import Research from './components/Research';
 import Gallery from './components/Gallery';
 import Contact from './components/Contact';
 import Publications from './components/Publications';
+import News from './components/News';
 import './index.css';
 
 function Navbar() {
@@ -16,23 +17,8 @@ function Navbar() {
       <div className="nav-links">
         <Link to="/">Home</Link>
         <Link to="/team">The Team</Link>
-        {/* <div className="dropdown">
-          <button className="dropbtn">People ▾</button>
-          <div className="dropdown-content">
-            <Link to="/about">About PI</Link>
-            <Link to="/team">The Team</Link>
-          </div>
-        </div> */}
         <Link to="/publications">Publications</Link>
         <Link to="/research">Research</Link>
-        {/* <div className="dropdown">
-          <button className="dropbtn">Research ▾</button>
-          <div className="dropdown-content">
-            <Link to="/research/eeg">EEG-based applications</Link>
-            <Link to="/research/mri">sMRI-based applications</Link>
-            <Link to="/research/media">Research in Media</Link>
-          </div>
-        </div> */}
         <Link to="/gallery">Gallery</Link>
         <Link to="/contact">Contact</Link>
       </div>
@@ -60,6 +46,7 @@ function App() {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/publications" element={<Publications />} />
+        <Route path="/news" element={<News />} />
       </Routes>
       <Footer />
     </BrowserRouter>

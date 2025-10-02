@@ -54,6 +54,30 @@ const teamData = {
       image: "/images/profile_pic/hari.jpg",
       scholar: "https://scholar.google.com/",
       linkedin: "https://linkedin.com/"
+    },
+    {
+      name: "Sura Sura Anjali",
+      role: "BTech Student",
+      info: "",
+      image: "/images/profile_pic/anjali.jpg",
+      scholar: "https://scholar.google.com/",
+      linkedin: "https://linkedin.com/"
+    },
+    {
+      name: "Gujju Sai Harshitha",
+      role: "BTech Student",
+      info: "",
+      image: "/images/profile_pic/harshitha.png",
+      scholar: "https://scholar.google.com/",
+      linkedin: "https://linkedin.com/"
+    },
+    {
+      name: "Deepak Sutradhar",
+      role: "BTech Student",
+      info: "",
+      image: "/images/profile_pic/deepak.jpg",
+      scholar: "https://scholar.google.com/",
+      linkedin: "https://linkedin.com/"
     }
   ],
   "Students Under Co-supervision": [
@@ -199,24 +223,27 @@ function Team() {
           <h2 className="category-title">{category}</h2>
 
           {category === "Alumni" ? (
-            <table className="alumni-table">
-              <thead>
-                <tr>
-                  <th>Name</th>
-                  <th>Graduation Year</th>
-                  <th>Current Position</th>
-                </tr>
-              </thead>
-              <tbody>
-                {teamData.Alumni.map((member, index) => (
-                <tr>
-                  <td>{member.name}</td>
-                  <td>{member.year}</td>
-                  <td>{member.currentRole}</td>
-                </tr>
-                ))}
-              </tbody>
-            </table>
+            <div>
+              <table className="alumni-table">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Graduation Year</th>
+                    <th>Current Position</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {teamData.Alumni.map((member, index) => (
+                    <tr>
+                      <td>{member.name}</td>
+                      <td>{member.year}</td>
+                      <td>{member.currentRole}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+              <p style={{ fontSize: '14px', marginTop: '5px', textAlign: 'left' }}><b>BTP</b> - BTech Project, <b>MTP</b> - MTech Project</p>
+            </div>
           ) : (
             <div className="team-grid">
               {teamData[category].map((member, index) => (
