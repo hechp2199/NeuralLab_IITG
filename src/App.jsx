@@ -8,6 +8,7 @@ import Gallery from './components/Gallery';
 import Contact from './components/Contact';
 import Publications from './components/Publications';
 import News from './components/News';
+import Collaborations from './components/Collaborations';
 import './index.css';
 
 function Navbar() {
@@ -47,6 +48,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/publications" element={<Publications />} />
         <Route path="/news" element={<News />} />
+        <Route path="/collab" element={<Collaborations />} />
       </Routes>
       <Footer />
     </BrowserRouter>

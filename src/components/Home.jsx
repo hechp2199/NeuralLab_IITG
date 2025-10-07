@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './css/Home.css';
+import './css/Team.css';
 
 function Home() {
   const images = [
@@ -68,6 +69,19 @@ function Home() {
             </div>
           </div>
           <a href="/news" className="view-all-link">View All News →</a>
+        </div>
+
+        <div className="team-grid">
+          <div className="team-card" key="courses">
+            <img src="/images/home_page/wheel-150.jpg" alt="courses" />
+            <h2>Courses Offered by Dr. Navin Gupta</h2>
+            <h5>Last Updated on Oct, 2025</h5>
+          </div>
+          <div className="team-card" key="collaborations">
+            <img src="/images/home_page/31.png" alt="collaborations" />
+            <h2><a href="/collab">Our Collaborations</a></h2>
+            <h5>Last Updated on Sep, 2024</h5>
+          </div>
         </div>
 
 
