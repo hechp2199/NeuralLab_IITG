@@ -34,10 +34,10 @@
   padding: 25px;
   border-radius: 12px;
   background: linear-gradient(135deg, #eef3ff, #ffffff);
-  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
   text-align: justify;
   margin: 0 auto 30px auto;
-  width: 80%; 
+  width: 80%;
 }
 
 .research-focus-modern h2 {
@@ -60,7 +60,7 @@
   border-radius: 12px;
   background: #fdfdfd;
   border: 1px solid #e0e0e0;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
   position: relative;
   margin: 0 auto 30px auto;
   width: 80%;
@@ -88,10 +88,25 @@
 }
 
 @keyframes fadeInOut {
-  0% { opacity: 0; transform: translateY(20px); }
-  10% { opacity: 1; transform: translateY(0); }
-  90% { opacity: 1; transform: translateY(0); }
-  100% { opacity: 0; transform: translateY(-20px); }
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  10% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  90% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
 }
 
 .view-all-link {
@@ -105,4 +120,65 @@
 
 .view-all-link:hover {
   color: #003366;
+}
+
+.links-list-home {
+  display: flex;
+}
+
+.links-list-home p {
+  width: 35%;
+  text-align: center;
+}
+
+.links-list-home a {
+  color: #0066cc;
+}
+
+.bulletin-scroll-container {
+  height: 120px;
+  overflow: hidden;
+  position: relative;
+  background: #fff;
+  margin: 10px 0;
+}
+
+/* Pause animation on hover */
+.bulletin-scroll-container:hover .bulletin-scroll-content {
+  animation-play-state: paused;
+}
+
+.bulletin-scroll-content {
+  display: block;
+  animation: scrollNews 15s linear infinite;
+}
+
+.bulletin-scroll-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.bulletin-scroll-content li {
+  padding: 5px 0;
+  border-bottom: 1px solid #e0e0e0;
+  color: #222;
+  background-color: #fff;
+  line-height: 1.4;
+  transition: background-color 0.3s ease;
+}
+
+.bulletin-scroll-content li:hover {
+  background-color: #f0f6ff;
+}
+
+/* Infinite vertical scroll animation */
+@keyframes scrollNews {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-50%);
+  }
 }

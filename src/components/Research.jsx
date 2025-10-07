@@ -1,6 +1,39 @@
 import React, { useState } from 'react';
 import './css/Research.css';
 import './css/Publications.css';
+import './css/Team.css'
+
+const researchMediaData = {
+  "UBNIN": [
+    {
+      link: "https://www.deccanherald.com/india/assam/iit-guwahatis-algorithm-to-encode-brain-networks-of-healthy-humans-patients-with-parkinsons-2946685",
+      info: "Deccan Herald Article",
+      image: "/images/research_media/deccanherald.avif",
+    },
+    {
+      link: "https://health.economictimes.indiatimes.com/news/industry/iit-guwahatis-algorithm-to-encode-brain-networks-of-healthy-humans-patients-with-parkinsons/108695748",
+      info: "Economic Times Article",
+      image: "/images/research_media/economic-ubnin.jpg",
+    },
+    {
+      link: "https://www.iitg.ac.in/iitg_press_details?p=106/encoding-the-human-brain-iit-guwahati-s-novel-algorithm-may-code-brain-connectivity-patterns-of-healthy-and-parkinson-s-patients-into-a-numerical-representation",
+      info: "IITG Press",
+      image: "/images/research_media/iitg-ubnin.jpg",
+    },
+  ],
+  "BrainPassword":[
+    {
+      link: "https://www.abc.net.au/science/articles/2012/04/24/3487958.html",
+      info: "ABC Science",
+      image: "/images/research_media/brain-password-abc.jpg",
+    },
+    {
+      link: "https://www.youtube.com/watch?v=fDUSlBQQRvg",
+      info: "YouTube Video",
+      image: "/images/research_media/brain-password-utube.jpg",
+    },
+  ]
+}
 
 function Research() {
   const [activeTab, setActiveTab] = useState('eeg');
@@ -123,11 +156,39 @@ function Research() {
       case 'media':
         return (
           <div className="research-content">
-            <h3>Research in Media</h3>
-            <p>
-              Our lab's findings have been featured in various news articles, academic blogs, and science communication platforms.
-              This section highlights our public engagement and outreach efforts to communicate science effectively.
-            </p>
+            {Object.keys(researchMediaData).map(category => (
+              <div>
+                {category === "UBNIN" ? (
+                  <div>
+                    <h3>Assistant Professor at Neural Engineering Lab, Dept of BSBE, IIT Guwahati, India</h3>
+                    <p>Articles on <b>Unique Brain Network Identification Number (UBNIN)</b>:</p>
+                    <div className="team-grid">
+                      {researchMediaData[category].map((member, index) => (
+                        <div className="team-card" key={index}>
+                          <img src={member.image} alt={member.info} />
+                          <h2><a href={member.link}>{member.info}</a></h2>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                ) : (
+                  <div>
+                    <br></br>
+                    <br></br>
+                    <h3>During PhD @ Brain Computer Interfaces-Neural Engineering Lab, University of Essex, United Kingdom</h3>
+                    <p>Articles/Videos On <b>"Your Brain Could be Your Password"</b>:</p>
+                    <div className="team-grid">
+                      {researchMediaData[category].map((member, index) => (
+                        <div className="team-card" key={index}>
+                          <img src={member.image} alt={member.info} />
+                          <h2><a href={member.link}>{member.info}</a></h2>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
+              </div>
+            ))}
           </div>
         );
       default:

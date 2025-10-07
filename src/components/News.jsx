@@ -4,6 +4,10 @@ import "./css/News.css";
 function News() {
   const newsList = [
     {
+      date:"",
+      content:"Shivani and Perween bag placement offers from reputed Deloitte as Data Analyst"
+    },
+    {
       date: "",
       content: "Dr. Navin joins Editorial Board of PlosONe and BMC Neuroscience journals",
       link: "https://journals.plos.org/plosone/static/editorial-board?ae_name=Cota+Navin+Gupta"

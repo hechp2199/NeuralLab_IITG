@@ -20,7 +20,6 @@ function Home() {
     "Doli and Shiva selected for Computational Neuroscience Summer School at IISER Pune",
     "Vacancy : Students passionate about programming and Neuroscience can contact us"
   ];
-  const [bulletinIndex, setBulletinIndex] = useState(0);
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -28,13 +27,6 @@ function Home() {
     }, 3000);
     return () => clearInterval(timer);
   }, [images.length]);
-
-  useEffect(() => {
-    const bTimer = setInterval(() => {
-      setBulletinIndex(prev => (prev + 1) % bulletinItems.length);
-    }, 4000);
-    return () => clearInterval(bTimer);
-  }, [bulletinItems.length]);
 
   return (
     <div className="page">
@@ -45,7 +37,6 @@ function Home() {
         </div>
       </div>
 
-      {/* New Research Focus + Bulletin Board */}
       <div className="focus-bulletin-modern">
         <div className="research-focus-modern">
           <h2>🔬 Research Focus</h2>
@@ -58,16 +49,28 @@ function Home() {
           <p>
             We work on interdisciplinary problems so it is imperative for you to understand that both of us will be learning and will be students of Science. We don't believe in BOSS culture but we gently remind each other that the work has to be done. :-) Thanks!
           </p>
-          <a href="/contact" className="view-all-link">Contact</a>
+          <div className='links-list-home'>
+            <p><a href='https://scholar.google.com/citations?hl=en&user=31K9iDoAAAAJ&view_op=list_works&sortby=pubdate' target='_blank' rel='noreferrer'>Google Scholar</a></p>
+            <p><a href='https://www.researchgate.net/profile/Cota-Gupta' target='_blank' rel='noreferrer'>ResearchGate</a></p>
+            <p><a href='https://github.com/NeuralLabIITGuwahati' target='_blank' rel='noreferrer'>GitHub Repository</a></p>
+          </div>
         </div>
 
         <div className="bulletin-modern">
           <h2>📌 Lab News</h2>
-          <div className="bulletin-ticker">
-            <p key={bulletinIndex}>{bulletinItems[bulletinIndex]}</p>
+          <div className="bulletin-scroll-container">
+            <div className="bulletin-scroll-content">
+              <ul>
+                {bulletinItems.concat(bulletinItems).map((item, index) => (
+                  <li key={index}>{item}</li>
+                ))}
+              </ul>
+            </div>
           </div>
           <a href="/news" className="view-all-link">View All News →</a>
         </div>
+
+
       </div>
     </div>
   );
