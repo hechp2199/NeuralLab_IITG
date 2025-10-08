@@ -52,3 +52,7 @@
 .pi-section p {
     font-size: 15px !important;
 }
+
+.pi-section a{
+    color: #0066cc;
+}

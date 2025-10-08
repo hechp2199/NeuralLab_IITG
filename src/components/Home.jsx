@@ -74,7 +74,7 @@ function Home() {
         <div className="team-grid">
           <div className="team-card" key="courses">
             <img src="/images/home_page/wheel-150.jpg" alt="courses" />
-            <h2>Courses Offered by Dr. Navin Gupta</h2>
+            <h2><a href='/courses'>Courses Offered by Dr. Navin Gupta</a></h2>
             <h5>Last Updated on Oct, 2025</h5>
           </div>
           <div className="team-card" key="collaborations">
