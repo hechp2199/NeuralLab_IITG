@@ -15,10 +15,11 @@ function Home() {
 
   const bulletinItems = [
     "Dr. Navin joins Editorial Board of PlosONe and BMC Neuroscience journals",
+    "Doli, Vishnu and Shivani's research works recognized at BRICS entrepreneur summit 2025 held at IIT Guwahati",
     "Tanmayee defends her PhD thesis and bags a Postdoc position at Karolinska Institutet, Sweden",
     "Shivani and Perween bag placement offers from reputed Deloitte as Data Analyst",
     "Dr. Navin Gupta delivered a talk at iBrain Initiative, Dept. of HSS, IITG",
-    "Doli and Shiva selected for Computational Neuroscience Summer School at IISER Pune",
+    "Lab welcomes new members Mr. Hari Prasath, Mr. Deepak, Ms. Harshitha and Ms. Anjali",
     "Vacancy : Students passionate about programming and Neuroscience can contact us"
   ];
 
@@ -40,6 +41,22 @@ function Home() {
 
       <div className="focus-bulletin-modern">
         <div className="focus-bulletin-container">
+          <div className="bulletin-modern">
+            <h2>📌 Lab News</h2>
+            <br></br>
+            <div className="bulletin-scroll-container">
+              <div className="bulletin-scroll-content">
+                <ul>
+                  {bulletinItems.concat(bulletinItems).map((item, index) => (
+                    <li key={index}>{item}</li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+            <br></br>
+            <a href="/news" className="view-all-link">View All News →</a>
+          </div>
+
           <div className="research-focus-modern">
             <h2>🔬 Research Focus</h2>
             <p>
@@ -56,22 +73,6 @@ function Home() {
               <p><a href='https://www.researchgate.net/profile/Cota-Gupta' target='_blank' rel='noreferrer'>ResearchGate</a></p>
               <p><a href='https://github.com/NeuralLabIITGuwahati' target='_blank' rel='noreferrer'>GitHub Repository</a></p>
             </div>
-          </div>
-
-          <div className="bulletin-modern">
-            <h2>📌 Lab News</h2>
-            <br></br>
-            <div className="bulletin-scroll-container">
-              <div className="bulletin-scroll-content">
-                <ul>
-                  {bulletinItems.concat(bulletinItems).map((item, index) => (
-                    <li key={index}>{item}</li>
-                  ))}
-                </ul>
-              </div>
-            </div>
-            <br></br>
-            <a href="/news" className="view-all-link">View All News →</a>
           </div>
         </div>
 

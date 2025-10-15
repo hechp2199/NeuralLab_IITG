@@ -8,8 +8,9 @@ const teamData = {
       role: "Principal Investigator",
       info: "Assistant Professor, BSBE Department",
       image: "/images/profile_pic/cng.jpg",
-      scholar: "https://scholar.google.com/",
-      linkedin: "https://linkedin.com/"
+      scholar: "https://scholar.google.com/citations?hl=en&user=31K9iDoAAAAJ&view_op=list_works&sortby=pubdate",
+      linkedin: "https://www.linkedin.com/in/cota-navin-gupta-b412142b/",
+      profile: "/about"
     }
   ],
   "Students": [
@@ -19,24 +20,24 @@ const teamData = {
       co_supervision: "(Co-supervised with Dr.Souptik Chanda)",
       info: "Electroencephalogram, Machine Learning, App Development",
       image: "/images/profile_pic/doli.jpg",
-      scholar: "https://scholar.google.com/",
-      linkedin: "https://linkedin.com/"
+      scholar: "",
+      linkedin: ""
     },
     {
       name: "Vishnu KN",
       role: "PhD Student",
       info: "Electroencephalogram, Neurocinematics, Deep Learning",
       image: "/images/profile_pic/Vishnu.jpg",
-      scholar: "https://scholar.google.com/",
-      linkedin: "https://linkedin.com/"
+      scholar: "",
+      linkedin: ""
     },
     {
       name: "Suraj Kumar",
       role: "PhD Student",
       info: "Image Processing, Structural MRI, Deep Learning",
       image: "/images/profile_pic/suraj.jpg",
-      scholar: "https://scholar.google.com/",
-      linkedin: "https://linkedin.com/"
+      scholar: "",
+      linkedin: ""
     },
     {
       name: "Dasari Shivakumar",
@@ -44,40 +45,40 @@ const teamData = {
       co_supervision: "(Co-supervised with Dr.Budhaditya Hazra)",
       info: "Electroencephalogram, Music, Neuroscience",
       image: "/images/profile_pic/Shiva.jpg",
-      scholar: "https://scholar.google.com/",
-      linkedin: "https://linkedin.com/"
+      scholar: "",
+      linkedin: ""
     },
     {
       name: "Hari Prasath B",
       role: "MTech Student",
       info: "Electrooculography, Android Development, Deep Learning",
       image: "/images/profile_pic/hari.jpg",
-      scholar: "https://scholar.google.com/",
-      linkedin: "https://linkedin.com/"
+      scholar: "",
+      linkedin: ""
     },
     {
       name: "Sura Sura Anjali",
       role: "BTech Student",
       info: "",
       image: "/images/profile_pic/anjali.jpg",
-      scholar: "https://scholar.google.com/",
-      linkedin: "https://linkedin.com/"
+      scholar: "",
+      linkedin: ""
     },
     {
       name: "Gujju Sai Harshitha",
       role: "BTech Student",
       info: "",
       image: "/images/profile_pic/harshitha.png",
-      scholar: "https://scholar.google.com/",
-      linkedin: "https://linkedin.com/"
+      scholar: "",
+      linkedin: ""
     },
     {
       name: "Deepak Sutradhar",
       role: "BTech Student",
       info: "",
       image: "/images/profile_pic/deepak.jpg",
-      scholar: "https://scholar.google.com/",
-      linkedin: "https://linkedin.com/"
+      scholar: "",
+      linkedin: ""
     }
   ],
   "Students Under Co-supervision": [
@@ -87,8 +88,8 @@ const teamData = {
       supervisor: "(Supervisor- Dr.Souptik Chanda)",
       info: "Biomedical Imaging, Machine Learning",
       image: "/images/profile_pic/RB.jpg",
-      scholar: "https://scholar.google.com/",
-      linkedin: "https://linkedin.com/"
+      scholar: "",
+      linkedin: ""
     },
     {
       name: "Pratik Nanda",
@@ -96,8 +97,8 @@ const teamData = {
       supervisor: "(Supervisor- Dr. Bidisha Som)",
       info: "Spatial Language, Spatial Semantics, Multimodal Analysis",
       image: "/images/profile_pic/Pratik.jpg",
-      scholar: "https://scholar.google.com/",
-      linkedin: "https://linkedin.com/"
+      scholar: "",
+      linkedin: ""
     },
     {
       name: "Supriya Borodoloi",
@@ -105,8 +106,8 @@ const teamData = {
       supervisor: "(Supervisor- Dr.Shyamanta Hazarika)",
       info: "Motor Imagery, Signal Processing, Lingustics, Neuroscience",
       image: "/images/profile_pic/SP.png",
-      scholar: "https://scholar.google.com/",
-      linkedin: "https://linkedin.com/"
+      scholar: "",
+      linkedin: ""
     },
   ],
   "Alumni": [
@@ -255,13 +256,20 @@ function Team() {
                   <h4>{member?.supervisor}</h4>
                   <h5>{member.info}</h5>
                   <div className="social-links">
-                    <a href={member.scholar} target="_blank" rel="noopener noreferrer">
-                      <img src="/images/logo/icons8-google-scholar.svg" alt="Google Scholar" />
-                    </a>
-                    <a href={member.linkedin} target="_blank" rel="noopener noreferrer">
-                      <img src="/images/logo/icons8-linkedin-logo.svg" alt="LinkedIn" />
-                    </a>
+                    {member.scholar && (
+                      <a href={member.scholar} target="_blank" rel="noopener noreferrer">
+                        <img src="/images/logo/icons8-google-scholar.svg" alt="Google Scholar" />
+                      </a>
+                    )}
+                    {member.linkedin && (
+                      <a href={member.linkedin} target="_blank" rel="noopener noreferrer">
+                        <img src="/images/logo/icons8-linkedin-logo.svg" alt="LinkedIn" />
+                      </a>
+                    )}
                   </div>
+                  {member.profile && (
+                    <a style={{ fontSize: '0.9rem', color: '#0066cc' }} href={member?.profile}>About PI</a>
+                  )}
                 </div>
               ))}
             </div>

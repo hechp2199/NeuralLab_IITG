@@ -4,8 +4,16 @@ import "./css/News.css";
 function News() {
   const newsList = [
     {
-      date:"",
-      content:"Shivani and Perween bag placement offers from reputed Deloitte as Data Analyst"
+      date: "2025",
+      content: "Lab welcomes new members Mr. Hari Prasath, Mr. Deepak, Ms. Harshitha and Ms. Anjali",
+    },
+    {
+      date: "2025",
+      content: "Shivani and Perween bag placement offers from reputed Deloitte as Data Analyst"
+    },
+    {
+      date: "2025",
+      content: "Doli, Vishnu and Shivani's research works recognized at BRICS entrepreneur summit 2025 held at IIT Guwahati"
     },
     {
       date: "",
@@ -13,7 +21,7 @@ function News() {
       link: "https://journals.plos.org/plosone/static/editorial-board?ae_name=Cota+Navin+Gupta"
     },
     {
-      date: "",
+      date: "2024",
       content: "Doli and Shiva selected for Computational Neuroscience Summer School at IISER Pune",
       link: "https://campiiser.com/"
     },
@@ -23,41 +31,41 @@ function News() {
       link: "https://ki.se/personer/tanmayee-samantaray"
     },
     {
-        date:"",
-        content:"Shivani bags internship at TCS Innovation labs, Pune while Afshan Perween completed internship at Onelogica, Greater Noida"
+      date: "",
+      content: "Shivani bags internship at TCS Innovation labs, Pune while Afshan Perween completed internship at Onelogica, Greater Noida"
     },
     {
-        date:"",
-        content:"Dr. Navin Gupta delivered a talk at iBrain Initiative, Dept. of HSS, IITG",
-        link:"https://www.youtube.com/watch?v=H2dbPJDMqPg"
+      date: "",
+      content: "Dr. Navin Gupta delivered a talk at iBrain Initiative, Dept. of HSS, IITG",
+      link: "https://www.youtube.com/watch?v=H2dbPJDMqPg"
     },
     {
-        date:"Feb 2023",
-        content:"Vishnu, Nanaki Singh, Doli from our lab participated in Epilepsy Challenge (Placed second in world among 12 Teams) at ICASSP 2023",
-        link: "https://biomedepi.github.io/seizure_detection_challenge/"
+      date: "Feb 2023",
+      content: "Vishnu, Nanaki Singh, Doli from our lab participated in Epilepsy Challenge (Placed second in world among 12 Teams) at ICASSP 2023",
+      link: "https://biomedepi.github.io/seizure_detection_challenge/"
     },
     {
-        date:"",
-        content:"Congratulations to Ms. Tanmayee for getting the crux of her PhD thesis work published in Brain Science Journal",
-        link:"https://www.mdpi.com/2076-3425/13/9/1297"
+      date: "",
+      content: "Congratulations to Ms. Tanmayee for getting the crux of her PhD thesis work published in Brain Science Journal",
+      link: "https://www.mdpi.com/2076-3425/13/9/1297"
     },
     {
-        date:"",
-        content:"Congratulations to Mr. Dasari Shivakumar and Mr. Suraj for winning Best Life Saving Model award in Biodesign Hackthon for Innovation in Medical Device and Systems, ICASSP 2023"
+      date: "",
+      content: "Congratulations to Mr. Dasari Shivakumar and Mr. Suraj for winning Best Life Saving Model award in Biodesign Hackthon for Innovation in Medical Device and Systems, ICASSP 2023"
     },
     {
-        date:"2023",
-        content:"Congratulations to Mr. Aditya and Ms. Nanaki on completing their MTech and storming into IISc Bangalore and IIT Madras respectively"
+      date: "2023",
+      content: "Congratulations to Mr. Aditya and Ms. Nanaki on completing their MTech and storming into IISc Bangalore and IIT Madras respectively"
     },
     {
-        date:"Feb 2023",
-        content:"Two students from Neural Engineering lab (Indian Institute of Technology Guwahati) teamed with two members from BIT-MESRA University to participate in Alzheimer’s Challenge at ICASSP 2023",
-        link: "https://luzs.gitlab.io/madress-2023/ranking.html"
+      date: "Feb 2023",
+      content: "Two students from Neural Engineering lab (Indian Institute of Technology Guwahati) teamed with two members from BIT-MESRA University to participate in Alzheimer’s Challenge at ICASSP 2023",
+      link: "https://luzs.gitlab.io/madress-2023/ranking.html"
     },
     {
-        date:"Feb 2023",
-        content:"A team of students from Neural Engineering lab (Team name: IITGneural) participated in the AuditoryEEG Challenge at ICASSP 2023",
-        link:"https://exporl.github.io/auditory-eeg-challenge-2023/task1/leaderboard/"
+      date: "Feb 2023",
+      content: "A team of students from Neural Engineering lab (Team name: IITGneural) participated in the AuditoryEEG Challenge at ICASSP 2023",
+      link: "https://exporl.github.io/auditory-eeg-challenge-2023/task1/leaderboard/"
     },
     {
       date: "Dec 2022",

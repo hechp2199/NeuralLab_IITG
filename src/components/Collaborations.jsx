@@ -38,6 +38,12 @@ const collabData = {
             image: "/images/collaborations/bidisha.jpg",
             profile: "https://www.iitg.ac.in/hss/faculty_page_profile.php?name=MHREcWxiVnh5MEZJUVMrcENmcCsvdz09"
         },
+        {
+            name: "Dr. Suman Hazarika",
+            position: "Apollo Hospital, Guwahati",
+            image: "/images/collaborations/dr_suman_hazarika.jpg",
+            profile: "https://www.linkedin.com/in/sumanhazarika/"
+        }
     ]
 };
 
