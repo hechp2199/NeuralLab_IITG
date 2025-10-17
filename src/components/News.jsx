@@ -8,17 +8,28 @@ function News() {
       content: "Lab welcomes new members Mr. Hari Prasath, Mr. Deepak, Ms. Harshitha and Ms. Anjali",
     },
     {
+      date:"2025",
+      content:"Congratulations to Suraj on the publication of his research paper on SAGEFusionNet",
+      link:"https://doi.org/10.3390/brainsci15070752"
+    },
+    {
       date: "2025",
       content: "Shivani and Perween bag placement offers from reputed Deloitte as Data Analyst"
     },
     {
-      date: "2025",
+      date: "Feb 2025",
       content: "Doli, Vishnu and Shivani's research works recognized at BRICS entrepreneur summit 2025 held at IIT Guwahati"
     },
     {
       date: "",
       content: "Dr. Navin joins Editorial Board of PlosONe and BMC Neuroscience journals",
-      link: "https://journals.plos.org/plosone/static/editorial-board?ae_name=Cota+Navin+Gupta"
+      link: "https://journals.plos.org/plosone/static/editorial-board?ae_name=Cota+Navin+Gupta",
+      link2: "https://bmcneurosci.biomedcentral.com/about/editorial-board"
+    },
+    {
+      date:"2024",
+      content:"Congratulations to Doli on the publication of her research paper titled -Dynamical Embedding of Single-Channel Electroencephalogram for Artifact Subspace Reconstruction",
+      link: "https://doi.org/10.3390/s24206734"
     },
     {
       date: "2024",
@@ -108,6 +119,16 @@ function News() {
                   className="news-link"
                 >
                   [Link]
+                </a>
+              )}
+              {news.link2 && (
+                <a
+                  href={news.link2}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="news-link"
+                >
+                  [Link2]
                 </a>
               )}
             </p>

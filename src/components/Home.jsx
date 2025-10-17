@@ -15,6 +15,8 @@ function Home() {
 
   const bulletinItems = [
     "Dr. Navin joins Editorial Board of PlosONe and BMC Neuroscience journals",
+    "Congratulations to Suraj on getting his work SAGEFusionNet published!",
+    "Congratulations to Doli on getting her work Dynamic ASR published!",
     "Doli, Vishnu and Shivani's research works recognized at BRICS entrepreneur summit 2025 held at IIT Guwahati",
     "Tanmayee defends her PhD thesis and bags a Postdoc position at Karolinska Institutet, Sweden",
     "Shivani and Perween bag placement offers from reputed Deloitte as Data Analyst",
