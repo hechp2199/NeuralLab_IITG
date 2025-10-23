@@ -4,6 +4,13 @@ import './css/Publications.css';
 // Journal Publications
 const journalPubs = [
     {
+        title: "SAGEFusionNet: An Auxiliary Supervised Graph Neural Network for Brain Age Prediction as a Neurodegenerative Biomarker",
+        authors: "S Kumar, S Hazarika, CN Gupta",
+        journal: "Brain Sci. 2025, 15(7), 752",
+        year: "2025",
+        link: "https://doi.org/10.3390/brainsci15070752"
+    },
+    {
         title: "Systematic review of experimental paradigms and deep neural networks for electroencephalography-based cognitive workload detection",
         authors: "KN Vishnu, CN Gupta",
         journal: "Prog. Biomed. Eng. 6 042004",
