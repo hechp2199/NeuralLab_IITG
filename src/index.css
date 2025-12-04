@@ -1,6 +1,7 @@
 /* Global Styles */
 body {
-  font-family: 'Segoe UI', 'Roboto', sans-serif;
+  font-family: "Merriweather", serif;
+  background: linear-gradient(180deg, #eef3ff 0%, #ffffff 100%);
   background-color: #f8f9fc;
   margin: 0;
   padding: 0;
@@ -17,6 +18,8 @@ h2,
 h3 {
   color: #003366;
   margin-bottom: 15px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
 }
 
 /* Navbar */

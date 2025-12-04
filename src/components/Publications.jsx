@@ -169,6 +169,13 @@ const journalPubs = [
 // Conference Publications
 const conferencePubs = [
     {
+        title:"Multi-Volumetric Feature-Based Brain Age Prediction Using sMRI and Graph Neural Networks",
+        authors:"S Kumar, CN Gupta",
+        journal:"2024 IEEE International Conference on Systems, Man, and Cybernetics (SMC), Kuching, Malaysia, 2024, pp. 3300-3304",
+        year: 2024,
+        link:"https://doi.org/10.1109/SMC54092.2024.10831639"
+    },
+    {
         title: "Identifying Subgroups and Novel Brain-Behavior Associations in Adolescents Who were Born Very Preterm Using Bi-clustering Approaches",
         authors: "CN Gupta, L Hadaya and C Nosarti",
         journal: "2023 IEEE 20th India Council International Conference (INDICON), Hyderabad, India, Dec 2023, pp. 225-227",

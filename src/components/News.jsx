@@ -9,7 +9,7 @@ function News() {
     },
     {
       date:"2025",
-      content:"Congratulations to Suraj on the publication of his research paper on SAGEFusionNet",
+      content:"Congratulations to Suraj for getting his algorithm SAGEFusionNet to predict BRAINAGE published in Brain Sciences journal",
       link:"https://doi.org/10.3390/brainsci15070752"
     },
     {

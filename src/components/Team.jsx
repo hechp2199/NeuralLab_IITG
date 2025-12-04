@@ -133,6 +133,12 @@ const teamData = {
       link: "https://ki.se/personer/tanmayee-samantaray"
     },
     {
+     name: "Sanjay Chhaba",
+      year: "BTP in 2024",
+      currentRole: "joined Intellemo.AI",
+      link: "" 
+    },
+    {
       name: "Nanaki Singh",
       year: "MTP in 2023",
       currentRole: "PhD at CNS, IISc",

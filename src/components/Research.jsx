@@ -151,6 +151,16 @@ function Research() {
             <br></br>
             <h3>Brain Age prediction</h3>
             <p>Unlike chronological age, which measures a person’s age in years since birth, the biological age of the brain is estimated using its morphological, functional, or molecular properties of brain. Brain age is a widely employed metric to assess and quantify an individual’s brain health. Brain ageing is linked to cognitive decline and an increased risk of neurodegenerative diseases. The difference between the estimated brain age and the chronological age is called the brain age gap. We are using deep learning methods to decipher brain age of an individual from grey and white matter regions of sMRI.</p>
+            <ul className="pub-list">
+              <li className="pub-item">
+                <a href="https://doi.org/10.3390/brainsci15070752" target="_blank" rel="noopener noreferrer">
+                  SAGEFusionNet: An Auxiliary Supervised Graph Neural Network for Brain Age Prediction as a Neurodegenerative Biomarker
+                </a>
+                <div className="pub-meta">
+                  S Kumar, S Hazarika, CN Gupta — <i> Brain Sci. 2025, 15(7), 752</i>
+                </div>
+              </li>
+            </ul>
           </div>
         );
       case 'media':

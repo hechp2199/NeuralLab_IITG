@@ -156,18 +156,22 @@
 }
 
 .bulletin-scroll-content ul {
-  list-style: none;
-  padding: 0;
+  list-style: disc;
+  padding-left: 22px;
   margin: 0;
 }
 
 .bulletin-scroll-content li {
-  text-align: justify;
-  padding: 5px 0;
+  font-family: "Georgia", "Times New Roman", serif;
+  font-size: 0.95rem;
+  color: #333;
+  font-weight: 600;
+  text-align: left;
+  padding: 5px 5px 5px 0;
   border-bottom: 1px solid #e0e0e0;
   color: #222;
   background-color: #fff;
-  line-height: 1.4;
+  line-height: 1.5;
   transition: background-color 0.3s ease;
 }
 
