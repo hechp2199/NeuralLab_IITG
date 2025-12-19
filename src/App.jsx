@@ -1,4 +1,3 @@
-import React from 'react';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import Home from './components/Home';
 import About from './components/About';
@@ -21,6 +20,7 @@ function Navbar() {
         <Link to="/team">The Team</Link>
         <Link to="/publications">Publications</Link>
         <Link to="/research">Research</Link>
+        <Link to="/courses">Teaching</Link>
         <Link to="/gallery">Gallery</Link>
         <Link to="/contact">Contact</Link>
       </div>

@@ -1,4 +1,3 @@
-import React from 'react';
 import './css/Team.css';
 
 const teamData = {
@@ -131,6 +130,12 @@ const teamData = {
       year: "PhD in 2024",
       currentRole: "PostDoc position at Karolinska Institutet, Sweden",
       link: "https://ki.se/personer/tanmayee-samantaray"
+    },
+    {
+     name: "Shreyansh Mishra",
+      year: "MTP in 2024",
+      currentRole: "joined NxtWave",
+      link: "" 
     },
     {
      name: "Sanjay Chhaba",

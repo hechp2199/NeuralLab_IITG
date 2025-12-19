@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import './css/Home.css';
 import './css/Team.css';
 
@@ -6,16 +6,19 @@ function Home() {
   const images = [
     "/images/home_page/IIT_view.png",
     "/images/home_page/EntranceImage.png",
-    "/images/home_page/Lab2025.jpg",
-    "/images/home_page/collective-pic.jpg",
     "/images/home_page/IMG_20230518_180547.jpg",
-    "/images/home_page/IMG_20230518_180836.jpg"
+    "/images/home_page/IMG_20230518_180836.jpg",
+    "/images/home_page/collective-pic.jpg",
+    "/images/home_page/Lab2025.jpg",
+    "/images/home_page/Lab2025_2.jpg",
+    "/images/home_page/Lab2025_3.jpg",
   ];
   const [currentIndex, setCurrentIndex] = useState(0);
+  const intervalRef = useRef(null);
 
   const bulletinItems = [
     "Dr. Navin joins Editorial Board of PlosONe and BMC Neuroscience journals",
-    "Congratulations to Suraj on getting his work SAGEFusionNet published!",
+    "Congratulations to Suraj for getting his algorithm SAGEFusionNet to predict BRAINAGE published in Brain Sciences journal",
     "Congratulations to Doli on getting her work Dynamic ASR published!",
     "Doli, Vishnu and Shivani's research works recognized at BRICS entrepreneur summit 2025 held at IIT Guwahati",
     "Tanmayee defends her PhD thesis and bags a Postdoc position at Karolinska Institutet, Sweden",
@@ -25,19 +28,49 @@ function Home() {
     "Vacancy : Students passionate about programming and Neuroscience can contact us"
   ];
 
-  useEffect(() => {
-    const timer = setInterval(() => {
+  // Start autoplay
+  const startAutoplay = () => {
+    // Clear any existing interval first
+    clearInterval(intervalRef.current);
+    intervalRef.current = setInterval(() => {
       setCurrentIndex(prev => (prev + 1) % images.length);
     }, 3000);
-    return () => clearInterval(timer);
+  };
+
+  // Stop autoplay
+  const stopAutoplay = () => {
+    clearInterval(intervalRef.current);
+    intervalRef.current = null;
+  };
+
+  useEffect(() => {
+    startAutoplay();
+    return () => clearInterval(intervalRef.current);
   }, [images.length]);
+
+  // Handlers for manual navigation (also restart autoplay)
+  const goNext = () => {
+    setCurrentIndex(prev => (prev + 1) % images.length);
+    // Restart autoplay so user sees next then autoplay continues
+    startAutoplay();
+  };
+
+  const goPrev = () => {
+    setCurrentIndex(prev => (prev - 1 + images.length) % images.length);
+    startAutoplay();
+  };
 
   return (
     <div className="page">
       <div className='background_image'>
         <h1>Welcome to Neural Engineering Lab</h1>
-        <div className="slideshow">
+        <div className="slideshow"
+          onMouseEnter={stopAutoplay}
+          onMouseLeave={startAutoplay}
+        >
+          <button className="nav-btn left" onClick={goPrev} aria-label="Previous slide">‹</button>
           <img src={images[currentIndex]} alt={`Slide ${currentIndex + 1}`} />
+          <button className="nav-btn right" onClick={goNext} aria-label="Next slide">›</button>
         </div>
       </div>
 

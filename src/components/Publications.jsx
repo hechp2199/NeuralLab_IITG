@@ -1,8 +1,14 @@
-import React from 'react';
 import './css/Publications.css';
 
 // Journal Publications
 const journalPubs = [
+    {
+        title: "Phase-aware LSTM projections for learning from heterogeneous electroencephalogram montages",
+        authors: "KN Vishnu, S Sundaram, CN Gupta",
+        journal: "Phys. Scr. 100 126003",
+        year: "2025",
+        link: "https://iopscience.iop.org/article/10.1088/1402-4896/ae229d/meta"
+    },
     {
         title: "SAGEFusionNet: An Auxiliary Supervised Graph Neural Network for Brain Age Prediction as a Neurodegenerative Biomarker",
         authors: "S Kumar, S Hazarika, CN Gupta",
@@ -168,6 +174,13 @@ const journalPubs = [
 
 // Conference Publications
 const conferencePubs = [
+    {
+        title:"Eye State Prediction on Android Devices using Machine Learning for Natural Environment Electroencephalogram Applications",
+        authors:"D Hazarika, S Chhaba, R Ransing, CN Gupta",
+        journal:"2025 47th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC), Copenhagen, Denmark, 2025, pp. 1-7",
+        year: 2025,
+        link:"https://doi.org/10.1109/embc58623.2025.11253625"
+    },
     {
         title:"Multi-Volumetric Feature-Based Brain Age Prediction Using sMRI and Graph Neural Networks",
         authors:"S Kumar, CN Gupta",

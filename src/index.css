@@ -1,6 +1,6 @@
 /* Global Styles */
 body {
-  font-family: "Merriweather", serif;
+  font-family: 'Source Sans 3', sans-serif;
   background: linear-gradient(180deg, #eef3ff 0%, #ffffff 100%);
   background-color: #f8f9fc;
   margin: 0;
@@ -18,7 +18,6 @@ h2,
 h3 {
   color: #003366;
   margin-bottom: 15px;
-  font-family: "Inter", sans-serif;
   font-weight: 600;
 }
 
