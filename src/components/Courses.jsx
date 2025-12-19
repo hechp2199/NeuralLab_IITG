@@ -5,7 +5,7 @@ const coursesData = [
     {
         id: "bt640",
         name: "BT640 - Neural Imaging and Signal Systems",
-        image: "/images/courses/bt640.jpg",
+        image: "/images/courses/neural_engineering.png",
         short: "This course is designed to introduce the theory and instrumentation for neural systems having clinical relevance",
         credits: 6,
         syllabus: [

@@ -31,7 +31,17 @@ function Navbar() {
 function Footer() {
   return (
     <footer className="footer">
-      <p>&copy; {new Date().getFullYear()} Neural Engineering Lab. All rights reserved.</p>
+      <p>&copy; {new Date().getFullYear()} Neural Engineering Lab. All rights reserved.
+        <span className="footer-credit">
+          Designed &amp; Maintained by <a
+            href="https://www.linkedin.com/in/hari-prasath-b-b83188158/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Hari Prasath B
+          </a>
+        </span>
+      </p>
     </footer>
   );
 }
