@@ -9,6 +9,7 @@ import Publications from './components/Publications';
 import News from './components/News';
 import Collaborations from './components/Collaborations';
 import Courses from './components/Courses';
+import CourseDetails from './components/CourseDetails';
 import './index.css';
 
 function Navbar() {
@@ -61,6 +62,7 @@ function App() {
         <Route path="/news" element={<News />} />
         <Route path="/collab" element={<Collaborations />} />
         <Route path="/courses" element={<Courses />} />
+        <Route path="/courses/:courseId" element={<CourseDetails />} />
       </Routes>
       <Footer />
     </BrowserRouter>
