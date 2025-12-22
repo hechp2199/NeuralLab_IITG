@@ -3,7 +3,7 @@
     text-align: left;
 }
 
-.important-links h2{
+.important-links h2 {
     text-align: left;
 }
 
@@ -16,6 +16,15 @@
     text-align: center;
 }
 
-.links-list{
+.links-list {
     display: flex;
+}
+
+.application-process-image {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 15px auto 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
 }

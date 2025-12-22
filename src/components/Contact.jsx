@@ -19,6 +19,11 @@ function Contact() {
       </div>
       <div className="prospective-text">
         <h2>Note for Prospective Students:</h2>
+        <img
+          src="/images/contact/application_workflow_neurallab.png"
+          alt="Application Process"
+          className="application-process-image"
+        />
         <ul>
           <li>Prospective PhD students have to apply as per the institute guidelines. Typically admissions are open twice a year (Jul and Dec). Please send a One page Research Statement and your college grade sheets. Also apply formally to IITG-BSBE PhD program.</li>
           <li>B.Tech/M.Tech projects open every summer. Students can contact with grade sheets.</li>
