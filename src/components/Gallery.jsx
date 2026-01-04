@@ -28,6 +28,11 @@ const galleryItems = [
         date: "July 2024"
     },
     {
+        image: "/images/gallery/newgen_2023.jpg",
+        event: "PhD Scholars at  NEWGEN-IEDC Project Showcase / Exhibition Event",
+        date: "2 December 2023"
+    },
+    {
         image: "/images/gallery/Teachers day23.jpg",
         event: "Teacher's day celebration",
         date: "5 September 2023"
