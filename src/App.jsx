@@ -15,7 +15,16 @@ import './index.css';
 function Navbar() {
   return (
     <nav className="navbar">
-      <div className="logo">Neural Engineering Lab | IIT Guwahati</div>
+      <div className="navbar-brand">
+        <img
+          src="/iitglogo.png"
+          alt="IIT Guwahati Logo"
+          className="navbar-logo"
+        />
+        <span className="logo">
+          Neural Engineering Lab | IIT Guwahati
+        </span>
+      </div>
       <div className="nav-links">
         <Link to="/">Home</Link>
         <Link to="/team">The Team</Link>

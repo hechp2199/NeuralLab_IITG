@@ -54,7 +54,7 @@ const galleryItems = [
     },
     {
         image: "/images/gallery/Ihackathon2023.jpg",
-        event: "Mr. Shiva and Mr. Suraj participating in Ihackathon",
+        event: "Mr. Shiva and Mr. Suraj participating in hackathon",
         date: "September 2023"
     },
     {

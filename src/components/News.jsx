@@ -61,7 +61,7 @@ function News() {
     },
     {
       date: "",
-      content: "Congratulations to Mr. Dasari Shivakumar and Mr. Suraj for winning Best Life Saving Model award in Biodesign Hackthon for Innovation in Medical Device and Systems, ICASSP 2023"
+      content: "Congratulations to Mr. Dasari Shivakumar and Mr. Suraj for winning Best Life Saving Model award in Biodesign Hackthon for Innovation in Medical Device and Systems"
     },
     {
       date: "2023",
