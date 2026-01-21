@@ -3,6 +3,11 @@ import './css/Gallery.css';
 
 const galleryItems = [
     {
+        image: "/images/gallery/AIIMS_DoctoralCommittee.jpeg",
+        event: "Dr.Navin invited to be part of the Doctoral Committee along-with Dr.Ransing and Dr.Newme at Dept of Psychiatry, AIIMS Guwahati",
+        date: "19 January 2026"
+    },
+    {
         image: "/images/gallery/raspberry.jpeg",
         event: "Vishnu and Sumit presenting their Raspberry pi demo to Bioinstrumentation and Control coursework students",
         date: "19 March 2025"
