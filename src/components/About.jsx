@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import './css/About.css';
 
 function About() {
@@ -6,15 +7,11 @@ function About() {
       <h1>Principal Investigator</h1>
 
       <div className="pi-header">
-        <img src="/images/profile_pic/cng.jpg" alt="Lab PI" className="pi-image-rounded" />
+        <img src="./images/profile_pic/cng.jpg" alt="Lab PI" className="pi-image-rounded" />
         <div className="pi-bio">
           <h2>Dr. Cota Navin Gupta</h2>
           <p>
-            Dr. Navin Gupta is currently an Assistant Professor with the Department of Biosciences and Bioengineering, IIT Guwahati working in the areas of brain computer interfaces, imaging genetics for psychiatric disorders, multimodal/multivariate algorithm development and designing wearable medical solutions for patient mobility.
-            He completed his Postdoctoral learning in the area of schizophrenia imaging genetics on a joint National Institute of Health (NIH) grant between Mind Research Network, USA and Georgia State University, USA publishing in numerous high impact journals.
-            Previously he obtained his PhD from Brain Computer Interfaces and Neural Engineering (BCI-NE) Group, University of Essex fully funded by the competitive Overseas Research Student (ORS) award for international students and University of Essex scholarships.
-            His PhD work involved designing an offline P300 BCI system.
-            During his doctoral work he also explored integrating electroencephalogram and near infrared spectroscopy modalities for cognitive applications.
+            Dr. Cota Navin Gupta is currently an Assistant Professor with the Department of Biosciences and Bioengineering, IIT Guwahati where he has now established Neural Engineering Lab.  He has successfully completed numerous research projects and <Link to="/team" className="lab-ppl-link">Student scholars</Link> graduating from his lab have often bagged prestigious jobs in both industry and academic institutions. His current research spans the areas of brain computer interfaces, imaging genetics for psychiatric disorders, multimodal/multivariate algorithm, deep learning algorithmic frameworks and designing wearable medical solutions for patient mobility.  Previously he completed his Postdoctoral learning in the area of schizophrenia imaging genetics on a joint National Institute of Health (NIH) grant between Mind Research Network, USA and Georgia State University, USA publishing in numerous high impact journals. He obtained his PhD from Brain Computer Interfaces and Neural Engineering (BCI-NE) Group, University of Essex fully funded by the highly competitive Overseas Research Student (ORS) award for international students and University of Essex scholarships. His PhD work involved designing an offline P300 BCI system. During his doctoral work he also explored integrating electroencephalogram and near infrared spectroscopy modalities for cognitive applications.
           </p>
         </div>
       </div>

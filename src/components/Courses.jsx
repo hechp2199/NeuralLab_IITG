@@ -5,13 +5,13 @@ const coursesData = [
     {
         id: "bt640",
         name: "BT640 - Neural Imaging and Signal Systems",
-        image: "/images/courses/neural_engineering.png",
+        image: "./images/courses/neural_engineering.png",
         description: "This course is designed to introduce the theory and instrumentation for neural systems having clinical relevance"
     },
     {
         id: "bt301",
         name: "BT301 - Biophysics",
-        image: "/images/courses/biophysics.png",
+        image: "./images/courses/biophysics.png",
         description: "This course gives an introduction to the physical principles governing biomolecular structure, dynamics, and interactions"
     }
 ];

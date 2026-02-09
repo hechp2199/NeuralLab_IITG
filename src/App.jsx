@@ -17,7 +17,7 @@ function Navbar() {
     <nav className="navbar">
       <div className="navbar-brand">
         <img
-          src="/iitglogo.png"
+          src="./iitglogo.png"
           alt="IIT Guwahati Logo"
           className="navbar-logo"
         />

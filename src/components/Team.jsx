@@ -6,7 +6,7 @@ const teamData = {
       name: "Dr. Cota Navin Gupta",
       role: "Principal Investigator",
       info: "Assistant Professor, BSBE Department",
-      image: "/images/profile_pic/cng.jpg",
+      image: "./images/profile_pic/cng.jpg",
       scholar: "https://scholar.google.com/citations?hl=en&user=31K9iDoAAAAJ&view_op=list_works&sortby=pubdate",
       linkedin: "https://www.linkedin.com/in/cota-navin-gupta-b412142b/",
       profile: "/about"
@@ -18,7 +18,7 @@ const teamData = {
       role: "PhD Student",
       co_supervision: "(Co-supervised with Dr. Souptik Chanda)",
       info: "Electroencephalogram, Machine Learning, App Development",
-      image: "/images/profile_pic/doli.jpg",
+      image: "./images/profile_pic/doli.jpg",
       scholar: "https://scholar.google.com/citations?user=2ILZI4AAAAAJ&hl=en",
       linkedin: "https://www.linkedin.com/in/doli-hazarika-551053108/"
     },
@@ -26,7 +26,7 @@ const teamData = {
       name: "Vishnu KN",
       role: "PhD Student",
       info: "Electroencephalogram, Neurocinematics, Deep Learning",
-      image: "/images/profile_pic/Vishnu.jpg",
+      image: "./images/profile_pic/Vishnu.jpg",
       scholar: "https://scholar.google.com/citations?user=BF6JlMcAAAAJ&hl=en",
       linkedin: "https://in.linkedin.com/in/vishnu-kn-2016b128a"
     },
@@ -34,7 +34,7 @@ const teamData = {
       name: "Suraj Kumar",
       role: "PhD Student",
       info: "Image Processing, Structural MRI, Deep Learning",
-      image: "/images/profile_pic/suraj.jpg",
+      image: "./images/profile_pic/suraj.jpg",
       scholar: "https://scholar.google.com/citations?user=VM6iWw8AAAAJ&hl=en",
       linkedin: "https://www.linkedin.com/in/surajiitbhu-2284?trk=contact-info"
     },
@@ -43,7 +43,7 @@ const teamData = {
       role: "PhD Student",
       co_supervision: "(Co-supervised with Dr. Budhaditya Hazra)",
       info: "Electroencephalogram, Music, Neuroscience",
-      image: "/images/profile_pic/shivakumar.jpg",
+      image: "./images/profile_pic/shivakumar.jpg",
       scholar: "https://scholar.google.com/citations?user=KQ_AA44AAAAJ&hl=en",
       linkedin: "https://www.linkedin.com/in/dasari-shivakumar-4005a7195"
     },
@@ -51,7 +51,7 @@ const teamData = {
       name: "Hari Prasath B",
       role: "MTech Student",
       info: "Electrooculography, Android Development, Deep Learning",
-      image: "/images/profile_pic/hari.jpg",
+      image: "./images/profile_pic/hari.jpg",
       scholar: "",
       linkedin: "https://www.linkedin.com/in/hari-prasath-b-b83188158/"
     },
@@ -59,7 +59,7 @@ const teamData = {
       name: "Sura Sura Anjali",
       role: "BTech Student",
       info: "",
-      image: "/images/profile_pic/anjali.jpg",
+      image: "./images/profile_pic/anjali.jpg",
       scholar: "",
       linkedin: ""
     },
@@ -67,7 +67,7 @@ const teamData = {
       name: "Gujju Sai Harshitha",
       role: "BTech Student",
       info: "",
-      image: "/images/profile_pic/harshitha.png",
+      image: "./images/profile_pic/harshitha.png",
       scholar: "",
       linkedin: ""
     },
@@ -75,7 +75,7 @@ const teamData = {
       name: "Deepak Sutradhar",
       role: "BTech Student",
       info: "",
-      image: "/images/profile_pic/deepak.jpg",
+      image: "./images/profile_pic/deepak.jpg",
       scholar: "",
       linkedin: ""
     }
@@ -86,7 +86,7 @@ const teamData = {
       role: "PhD Student",
       supervisor: "(Supervisor- Dr. Souptik Chanda)",
       info: "Biomedical Imaging, Machine Learning",
-      image: "/images/profile_pic/RB.jpg",
+      image: "./images/profile_pic/RB.jpg",
       scholar: "",
       linkedin: "https://in.linkedin.com/in/rahul-bhagawati-40550255"
     },
@@ -95,7 +95,7 @@ const teamData = {
       role: "PhD Student",
       supervisor: "(Supervisor- Dr. Bidisha Som)",
       info: "Spatial Language, Spatial Semantics, Multimodal Analysis",
-      image: "/images/profile_pic/Pratik.jpg",
+      image: "./images/profile_pic/Pratik.jpg",
       scholar: "",
       linkedin: "https://www.linkedin.com/in/pratik-nanda-2794782b5/?originalSubdomain=in"
     },
@@ -104,7 +104,7 @@ const teamData = {
       role: "PhD Student",
       supervisor: "(Supervisor- Dr. Shyamanta Hazarika)",
       info: "Motor Imagery, Signal Processing, Lingustics, Neuroscience",
-      image: "/images/profile_pic/SP.png",
+      image: "./images/profile_pic/SP.png",
       scholar: "",
       linkedin: "https://in.linkedin.com/in/supriya-bordoloi-a478361a0"
     },
@@ -283,12 +283,12 @@ function Team() {
                   <div className="social-links">
                     {member.scholar && (
                       <a href={member.scholar} target="_blank" rel="noopener noreferrer">
-                        <img src="/images/logo/icons8-google-scholar.svg" alt="Google Scholar" />
+                        <img src="./images/logo/icons8-google-scholar.svg" alt="Google Scholar" />
                       </a>
                     )}
                     {member.linkedin && (
                       <a href={member.linkedin} target="_blank" rel="noopener noreferrer">
-                        <img src="/images/logo/icons8-linkedin-logo.svg" alt="LinkedIn" />
+                        <img src="./images/logo/icons8-linkedin-logo.svg" alt="LinkedIn" />
                       </a>
                     )}
                   </div>

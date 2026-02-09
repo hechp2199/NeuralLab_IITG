@@ -5,7 +5,7 @@ const coursesData = [
     {
         id: "bt640",
         name: "BT640 - Neural Imaging and Signal Systems",
-        image: "/images/courses/bt640.jpg",
+        image: "./images/courses/bt640.jpg",
         description: "This course is designed to introduce the theory and instrumentation for neural systems having clinical relevance.",
         syllabus: [
             "Significance and common types of neural signals",
@@ -30,7 +30,7 @@ const coursesData = [
     {
         id: "bt301",
         name: "BT301 - Biophysics",
-        image: "/images/courses/biophysics.png",
+        image: "./images/courses/biophysics.png",
         description: "Introduction to physical principles governing biomolecular structure and dynamics.",
         syllabus: [
             "Molecular potentials",

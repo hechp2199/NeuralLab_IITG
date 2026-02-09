@@ -8,29 +8,29 @@ const researchMediaData = {
     {
       link: "https://www.deccanherald.com/india/assam/iit-guwahatis-algorithm-to-encode-brain-networks-of-healthy-humans-patients-with-parkinsons-2946685",
       info: "Deccan Herald Article",
-      image: "/images/research_media/deccanherald.avif",
+      image: "./images/research_media/deccanherald.avif",
     },
     {
       link: "https://health.economictimes.indiatimes.com/news/industry/iit-guwahatis-algorithm-to-encode-brain-networks-of-healthy-humans-patients-with-parkinsons/108695748",
       info: "Economic Times Article",
-      image: "/images/research_media/economic-ubnin.jpg",
+      image: "./images/research_media/economic-ubnin.jpg",
     },
     {
       link: "https://www.iitg.ac.in/iitg_press_details?p=106/encoding-the-human-brain-iit-guwahati-s-novel-algorithm-may-code-brain-connectivity-patterns-of-healthy-and-parkinson-s-patients-into-a-numerical-representation",
       info: "IITG Press",
-      image: "/images/research_media/iitg-ubnin.jpg",
+      image: "./images/research_media/iitg-ubnin.jpg",
     },
   ],
   "BrainPassword":[
     {
       link: "https://www.abc.net.au/science/articles/2012/04/24/3487958.html",
       info: "ABC Science",
-      image: "/images/research_media/brain-password-abc.jpg",
+      image: "./images/research_media/brain-password-abc.jpg",
     },
     {
       link: "https://www.youtube.com/watch?v=fDUSlBQQRvg",
       info: "YouTube Video",
-      image: "/images/research_media/brain-password-utube.jpg",
+      image: "./images/research_media/brain-password-utube.jpg",
     },
   ]
 }

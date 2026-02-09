@@ -3,117 +3,117 @@ import './css/Gallery.css';
 
 const galleryItems = [
     {
-        image: "/images/gallery/AIIMS_DoctoralCommittee.jpeg",
+        image: "./images/gallery/AIIMS_DoctoralCommittee.jpeg",
         event: "Dr.Navin invited to be part of the Doctoral Committee along-with Dr.Ransing and Dr.Newme at Dept of Psychiatry, AIIMS Guwahati",
         date: "19 January 2026"
     },
     {
-        image: "/images/gallery/raspberry.jpeg",
+        image: "./images/gallery/raspberry.jpeg",
         event: "Vishnu and Sumit presenting their Raspberry pi demo to Bioinstrumentation and Control coursework students",
         date: "19 March 2025"
     },
     {
-        image: "/images/gallery/BRICSFeb2025.jpeg",
+        image: "./images/gallery/BRICSFeb2025.jpeg",
         event: "Doli, Vishnu and Shivani research works recognized at BRICS entrepreneur summit 2025 held at IIT Guwahati",
         date: "7 February 2025"
     },
     {
-        image: "/images/gallery/tanmayee-farewell.jpg",
+        image: "./images/gallery/tanmayee-farewell.jpg",
         event: "Celebrating Tanmayee's Farewell Wishing her great success ahead!",
         date: "25 April 2024"
     },
     {
-        image: "/images/gallery/tanmayee-farewell-2.jpg",
+        image: "./images/gallery/tanmayee-farewell-2.jpg",
         event: "Celebrating Tanmayee's incredible journey from student to scholar",
         date: "25 April 2024"
     },
     {
-        image: "/images/gallery/iiser-pune.JPG",
+        image: "./images/gallery/iiser-pune.JPG",
         event: "PhD Scholars having brain fun at IISER Pune",
         date: "July 2024"
     },
     {
-        image: "/images/gallery/newgen_2023.jpg",
+        image: "./images/gallery/newgen_2023.jpg",
         event: "PhD Scholars at  NEWGEN-IEDC Project Showcase / Exhibition Event",
         date: "2 December 2023"
     },
     {
-        image: "/images/gallery/Teachers day23.jpg",
+        image: "./images/gallery/Teachers day23.jpg",
         event: "Teacher's day celebration",
         date: "5 September 2023"
     },
     {
-        image: "/images/gallery/iBrain Talk 2023.JPG",
+        image: "./images/gallery/iBrain Talk 2023.JPG",
         event: "iBrain talk, Dept of HSS, IIT Guwahati",
         date: "2023"
     },
     {
-        image: "/images/gallery/CCDs.jpg",
+        image: "./images/gallery/CCDs.jpg",
         event: "Treat at CCD, IITG",
         date: "September 2023"
     },
     {
-        image: "/images/gallery/Biodesign Hackathon 2023.jpeg",
+        image: "./images/gallery/Biodesign Hackathon 2023.jpeg",
         event: "Mr. Shiva and Mr. Suraj won 'Best Life Saving Model' at Biodesign Hackathon for Innovation in Medical Device and Systems",
         date: "September 2023"
     },
     {
-        image: "/images/gallery/Ihackathon2023.jpg",
+        image: "./images/gallery/Ihackathon2023.jpg",
         event: "Mr. Shiva and Mr. Suraj participating in hackathon",
         date: "September 2023"
     },
     {
-        image: "/images/gallery/UDGAM.jpg",
+        image: "./images/gallery/UDGAM.jpg",
         event: "At UDGAM Startup poster presentation",
         date: "January 2023"
     },
     {
-        image: "/images/gallery/IEEE_SSCI 2022.jpg",
+        image: "./images/gallery/IEEE_SSCI 2022.jpg",
         event: "IEEE SSCI 2022 remote presentation",
         date: "5 December 2022"
     },
     {
-        image: "/images/gallery/Teachers day 22.jpg",
+        image: "./images/gallery/Teachers day 22.jpg",
         event: "Teacher's day celebration",
         date: "5 September 2022"
     },
     {
-        image: "/images/gallery/BIT-MESRA.jpg",
+        image: "./images/gallery/BIT-MESRA.jpg",
         event: "Talk at BIT Mesra Ranchi",
         date: "23 August 2022"
     },
     {
-        image: "/images/gallery/NERC_Stall.jpg",
+        image: "./images/gallery/NERC_Stall.jpg",
         event: "Ms.Tanmayee and Ms.Doli explaining the research work conducted in our lab at NERC 2022",
         date: "20 May 2022"
     },
     {
-        image: "/images/gallery/NERC_Poster.jpg",
+        image: "./images/gallery/NERC_Poster.jpg",
         event: "Poster at NERC 2022",
         date: "May 2022"
     },
     {
-        image: "/images/gallery/Srihari_sendoff.jpg",
+        image: "./images/gallery/Srihari_sendoff.jpg",
         event: "On the occasion of Mr. Srihari Madhavan's sendoff",
         date: "May 2021"
     },
     {
-        image: "/images/gallery/srihari.jpg",
+        image: "./images/gallery/srihari.jpg",
         event: "Srihari at Research Conclave 2019",
         date: "15 March 2019"
     },
     {
-        image: "/images/gallery/p300.jpg",
+        image: "./images/gallery/p300.jpg",
         event: "P300 goes live!",
         date: "15 March 2019"
     },
     {
-        image: "/images/gallery/interaction.jpg",
+        image: "./images/gallery/interaction.jpg",
         event: "Inspiring young minds- Lab team interacting with young motivated students",
         date: "15 March 2019"
     },
     {
-        image: "/images/gallery/gpu.jpg",
+        image: "./images/gallery/gpu.jpg",
         event: "Lab's first GPU- All hail this marvel of parallel computing!",
         date: "13 November 2018"
     }

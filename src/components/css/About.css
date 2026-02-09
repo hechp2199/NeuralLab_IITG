@@ -30,7 +30,7 @@
     max-width: 700px;
 }
 
-.pi-bio p{
+.pi-bio p {
     text-align: justify;
 }
 
@@ -53,6 +53,14 @@
     font-size: 15px !important;
 }
 
-.pi-section a{
+.pi-section a {
     color: #0066cc;
+}
+
+.lab-ppl-link {
+    color: #0066cc;
+}
+
+.lab-ppl-link:hover {
+    color: #003366;
 }

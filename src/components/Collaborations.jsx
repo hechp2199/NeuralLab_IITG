@@ -5,43 +5,43 @@ const collabData = {
         {
             name: "Dr.Souptick Chanda",
             position: "Dept of BSBE, IITG",
-            image: "/images/collaborations/souptik.jpg",
+            image: "./images/collaborations/souptik.jpg",
             profile: "https://www.iitg.ac.in/biotech/faculty_profile.php?fname=Souptick&lname=Chanda&iitg=1106&mail=csouptick@iitg.ac.in"
         },
         {
             name: "Prof.Jitender Saini",
             position: "NIMHANS Bangalore",
-            image: "/images/collaborations/dr-saini-2.jpg",
+            image: "./images/collaborations/dr-saini-2.jpg",
             profile: "https://www.musiccognitionlab.org/in-house-collaborators.html"
         },
         {
             name: "Dr.Ramdas Ransing",
             position: "AIIMS Guwahati",
-            image: "/images/collaborations/ransing.jpg",
+            image: "./images/collaborations/ransing.jpg",
             profile: "https://www.researchgate.net/profile/Ramdas-Ransing"
         },
         {
             name: "Dr.Budhaditya Hazra",
             position: "Dept of Civil Engineering, IITG",
-            image: "/images/collaborations/b_hazra.jpg",
+            image: "./images/collaborations/b_hazra.jpg",
             profile: "https://www.iitg.ac.in/budhaditya.hazra/homepage/index.html"
         },
         {
             name: "Prof. Shyamanta Hazrika",
             position: "Dept of Mechanical Engineering, IITG",
-            image: "/images/collaborations/shyamanta.jpg",
+            image: "./images/collaborations/shyamanta.jpg",
             profile: "https://iitg.ac.in/mech/faculty/smhazarika/"
         },
         {
             name: "Dr.Bidisha Som",
             position: "Dept of HSS, IITG",
-            image: "/images/collaborations/bidisha.jpg",
+            image: "./images/collaborations/bidisha.jpg",
             profile: "https://www.iitg.ac.in/hss/faculty_page_profile.php?name=MHREcWxiVnh5MEZJUVMrcENmcCsvdz09"
         },
         {
             name: "Dr.Suman Hazarika",
             position: "Apollo Hospital, Guwahati",
-            image: "/images/collaborations/dr_suman_hazarika.jpg",
+            image: "./images/collaborations/dr_suman_hazarika.jpg",
             profile: "https://www.linkedin.com/in/sumanhazarika/"
         }
     ]

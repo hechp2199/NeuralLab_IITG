@@ -4,14 +4,14 @@ import './css/Team.css';
 
 function Home() {
   const images = [
-    "/images/home_page/IIT_view.png",
-    "/images/home_page/EntranceImage.png",
-    "/images/home_page/IMG_20230518_180547.jpg",
-    "/images/home_page/IMG_20230518_180836.jpg",
-    "/images/home_page/collective-pic.jpg",
-    "/images/home_page/Lab2025.jpg",
-    "/images/home_page/Lab2025_2.jpg",
-    "/images/home_page/Lab2025_3.jpg",
+    "./images/home_page/IIT_view.png",
+    "./images/home_page/EntranceImage.png",
+    "./images/home_page/IMG_20230518_180547.jpg",
+    "./images/home_page/IMG_20230518_180836.jpg",
+    "./images/home_page/collective-pic.jpg",
+    "./images/home_page/Lab2025.jpg",
+    "./images/home_page/Lab2025_2.jpg",
+    "./images/home_page/Lab2025_3.jpg",
   ];
   const [currentIndex, setCurrentIndex] = useState(0);
   const intervalRef = useRef(null);
@@ -113,12 +113,12 @@ function Home() {
 
         <div className="team-grid">
           <div className="team-card" key="courses">
-            <img src="/images/home_page/wheel-150.jpg" alt="courses" />
+            <img src="./images/home_page/wheel-150.jpg" alt="courses" />
             <h2><a href='/courses'>Courses Offered by Dr. Navin Gupta</a></h2>
             <h5>Last Updated on Oct, 2025</h5>
           </div>
           <div className="team-card" key="collaborations">
-            <img src="/images/home_page/31.png" alt="collaborations" />
+            <img src="./images/home_page/31.png" alt="collaborations" />
             <h2><a href="/collab">Our Collaborations</a></h2>
             <h5>Last Updated on Sep, 2024</h5>
           </div>

@@ -20,7 +20,7 @@ function Contact() {
       <div className="prospective-text">
         <h2>Note for Prospective Students:</h2>
         <img
-          src="/images/contact/application_workflow_neurallab.png"
+          src="./images/contact/application_workflow_neurallab.png"
           alt="Application Process"
           className="application-process-image"
         />
