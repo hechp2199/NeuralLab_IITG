@@ -138,9 +138,21 @@ const teamData = {
       link: "" 
     },
     {
+     name: "Manish Anand",
+      year: "MTP in 2024",
+      currentRole: "PhD at DBEB, IIT Delhi",
+      link: "" 
+    },
+    {
      name: "Sanjay Chhaba",
       year: "BTP in 2024",
       currentRole: "joined Intellemo.AI",
+      link: "" 
+    },
+    {
+     name: "Aadarsh Sudhir Ghiya",
+      year: "BTP in 2024",
+      currentRole: "MS at University of Southern California",
       link: "" 
     },
     {

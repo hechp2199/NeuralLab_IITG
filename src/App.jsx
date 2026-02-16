@@ -41,7 +41,7 @@ function Navbar() {
 function Footer() {
   return (
     <footer className="footer">
-      <p>&copy; {new Date().getFullYear()} Neural Engineering Lab. All rights reserved.
+      <p>&copy; {new Date().getFullYear()} Neural Engineering Lab | IIT Guwahati.
         <span className="footer-credit">
           Designed &amp; Maintained by <a
             href="https://www.linkedin.com/in/hari-prasath-b-b83188158/"
