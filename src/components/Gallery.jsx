@@ -78,7 +78,7 @@ const galleryItems = [
         date: "5 September 2022"
     },
     {
-        image: "./images/gallery/Bit-MESRA.JPG",
+        image: "./images/gallery/BitMESRA.JPG",
         event: "Talk at BIT Mesra Ranchi",
         date: "23 August 2022"
     },
