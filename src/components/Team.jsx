@@ -1,4 +1,5 @@
 import './css/Team.css';
+import { Link } from "react-router-dom";
 
 const teamData = {
   "Faculty": [
@@ -18,7 +19,7 @@ const teamData = {
       role: "PhD Student",
       co_supervision: "(Co-supervised with Dr. Souptik Chanda)",
       info: "Electroencephalogram, Machine Learning, App Development",
-      image: "./images/profile_pic/doli.jpg",
+      image: "./images/profile_pic/doli.JPG",
       scholar: "https://scholar.google.com/citations?user=2ILZI4AAAAAJ&hl=en",
       linkedin: "https://www.linkedin.com/in/doli-hazarika-551053108/"
     },
@@ -113,17 +114,17 @@ const teamData = {
     {
       name: "Shivani Mittal",
       year: "MTP in 2025",
-      currentRole: "joined Deloitte India"
+      currentRole: "Joined Deloitte India"
     },
     {
       name: "Afshan Perween",
       year: "BTP in 2025",
-      currentRole: "joined Deloitte India"
+      currentRole: "Joined Deloitte India"
     },
     {
       name: "Sumit Nayan",
       year: "BTP in 2025",
-      currentRole: "preparing for Civil Services Exam"
+      currentRole: "Preparing for Civil Services Exam"
     },
     {
       name: "Tanmayee",
@@ -132,28 +133,28 @@ const teamData = {
       link: "https://ki.se/personer/tanmayee-samantaray"
     },
     {
-     name: "Shreyansh Mishra",
+      name: "Shreyansh Mishra",
       year: "MTP in 2024",
-      currentRole: "joined NxtWave",
-      link: "" 
+      currentRole: "Joined NxtWave",
+      link: ""
     },
     {
-     name: "Manish Anand",
+      name: "Manish Anand",
       year: "MTP in 2024",
       currentRole: "PhD at DBEB, IIT Delhi",
-      link: "" 
+      link: ""
     },
     {
-     name: "Sanjay Chhaba",
+      name: "Sanjay Chhaba",
       year: "BTP in 2024",
-      currentRole: "joined Intellemo.AI",
-      link: "" 
+      currentRole: "Joined Intellemo.AI",
+      link: ""
     },
     {
-     name: "Aadarsh Sudhir Ghiya",
+      name: "Aadarsh Sudhir Ghiya",
       year: "BTP in 2024",
       currentRole: "MS at University of Southern California",
-      link: "" 
+      link: ""
     },
     {
       name: "Nanaki Singh",
@@ -170,12 +171,12 @@ const teamData = {
     {
       name: "Aadarsh",
       year: "BTP in 2023",
-      currentRole: "joined Arizona State University, USA"
+      currentRole: "Joined Arizona State University, USA"
     },
     {
       name: "Utsav Gupta",
       year: "BTP in 2023",
-      currentRole: "joined Vayuz Technologies"
+      currentRole: "Joined Vayuz Technologies"
     },
     {
       name: "Navarun Yadav",
@@ -192,53 +193,53 @@ const teamData = {
     {
       name: "Rekshand Gehlot",
       year: "MTP in 2021",
-      currentRole: "joined TCS Innovation Labs"
+      currentRole: "Joined TCS Innovation Labs"
     },
     {
       name: "Siva Sai Himakar Sreerangam",
       year: "BTP in 2021",
-      currentRole: "joined EXL"
+      currentRole: "Joined EXL"
     },
     {
       name: "Prathyoom M S",
       year: "BTP in 2021",
-      currentRole: "joined Sprinklr"
+      currentRole: "Joined Sprinklr"
     },
     {
       name: "Srihari Madhavan",
       year: "MTP in 2020",
-      currentRole: "joined University of Connecticut",
+      currentRole: "Joined University of Connecticut",
       link: "https://health.uconn.edu/genetics/person/srihari-madhavan/"
     },
     {
       name: "Shwetank Panwar",
       year: "BTP in 2020",
-      currentRole: "joined Endovision AI"
+      currentRole: "Joined Endovision AI"
     },
     {
       name: "Manav Agarwal",
       year: "BTP in 2020",
-      currentRole: "joined Toppr"
+      currentRole: "Joined Toppr"
     },
     {
       name: "Arup Kumar Pal",
       year: "MTP in 2019",
-      currentRole: "joined Mastercard"
+      currentRole: "Joined Mastercard"
     },
     {
       name: "Abhishek Siroha",
       year: "MTP in 2018",
-      currentRole: "joined Spectral Insights"
+      currentRole: "Joined Spectral Insights"
     },
     {
       name: "Nikhil Yadhala",
       year: "BTP in 2018",
-      currentRole: "joined Microsoft India"
+      currentRole: "Joined Microsoft India"
     },
     {
       name: "Apoorv Bajpai",
       year: "BTP in 2018",
-      currentRole: "joined Global Analytics"
+      currentRole: "Joined Global Analytics"
     },
 
   ]
@@ -305,7 +306,7 @@ function Team() {
                     )}
                   </div>
                   {member.profile && (
-                    <a style={{ fontSize: '0.9rem', color: '#0066cc' }} href={member?.profile}>About PI</a>
+                    <Link style={{ fontSize: '0.9rem', color: '#0066cc' }} to={member?.profile}>About PI</Link>
                   )}
                 </div>
               ))}

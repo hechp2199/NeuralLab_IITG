@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
+import { Link } from "react-router-dom";
 import './css/Home.css';
 import './css/Team.css';
 
@@ -89,7 +90,7 @@ function Home() {
               </div>
             </div>
             <br></br>
-            <a href="/news" className="view-all-link">View All News →</a>
+            <Link to="/news" className="view-all-link">View All News →</Link>
           </div>
 
           <div className="research-focus-modern">
@@ -114,12 +115,12 @@ function Home() {
         <div className="team-grid">
           <div className="team-card" key="courses">
             <img src="./images/home_page/wheel-150.jpg" alt="courses" />
-            <h2><a href='/courses'>Courses Offered by Dr. Navin Gupta</a></h2>
+            <h2><Link to='/courses'>Courses Offered by Dr. Navin Gupta</Link></h2>
             <h5>Last Updated on Oct, 2025</h5>
           </div>
           <div className="team-card" key="collaborations">
             <img src="./images/home_page/31.png" alt="collaborations" />
-            <h2><a href="/collab">Our Collaborations</a></h2>
+            <h2><Link to="/collab">Our Collaborations</Link></h2>
             <h5>Last Updated on Sep, 2024</h5>
           </div>
         </div>

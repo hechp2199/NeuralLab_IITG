@@ -58,7 +58,7 @@ function Footer() {
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/cngupta/"> {/** REMOVE THE 'basename="/cngupta/"' WHILE RUNNING APP IN LOCAL */}
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
