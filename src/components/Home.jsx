@@ -18,15 +18,42 @@ function Home() {
   const intervalRef = useRef(null);
 
   const bulletinItems = [
-    "Dr. Navin joins Editorial Board of PlosONe and BMC Neuroscience journals",
-    "Congratulations to Suraj for getting his algorithm SAGEFusionNet to predict BRAINAGE published in Brain Sciences journal",
-    "Congratulations to Doli on getting her work Dynamic ASR published!",
-    "Doli, Vishnu and Shivani's research works recognized at BRICS entrepreneur summit 2025 held at IIT Guwahati",
-    "Tanmayee defends her PhD thesis and bags a Postdoc position at Karolinska Institutet, Sweden",
-    "Shivani and Perween bag placement offers from reputed Deloitte as Data Analyst",
-    "Dr. Navin Gupta delivered a talk at iBrain Initiative, Dept. of HSS, IITG",
-    "Lab welcomes new members Mr. Hari Prasath, Mr. Deepak, Ms. Harshitha and Ms. Anjali",
-    "Vacancy : Students passionate about programming and Neuroscience can contact us"
+    {
+      news: "Dr. Navin joins Editorial Board of PlosONe and BMC Neuroscience journals",
+      link: "https://journals.plos.org/plosone/static/editorial-board?ae_name=Cota+Navin+Gupta",
+      link2: "https://bmcneurosci.biomedcentral.com/about/editorial-board"
+    },
+    {
+      news: "Congratulations to Vishnu for getting his work on Phase-aware LSTM published",
+      link: "https://iopscience.iop.org/article/10.1088/1402-4896/ae229d"
+    },
+    {
+      news: "Congratulations to Suraj for getting his algorithm SAGEFusionNet to predict BRAINAGE published in Brain Sciences journal",
+      link: "https://doi.org/10.3390/brainsci15070752"
+    },
+    {
+      news: "Congratulations to Doli on getting her work Dynamic ASR published",
+      link: "https://doi.org/10.3390/s24206734"
+    },
+    {
+      news: "Doli, Vishnu and Shivani's research works recognized at BRICS entrepreneur summit 2025 held at IIT Guwahati",
+    },
+    {
+      news: "Tanmayee defends her PhD thesis and bags a Postdoc position at Karolinska Institutet, Sweden",
+    },
+    {
+      news: "Shivani and Perween bag placement offers from reputed Deloitte as Data Analyst",
+    },
+    {
+      news: "Dr. Navin Gupta delivered a talk at iBrain Initiative, Dept. of HSS, IITG",
+      link: "https://www.youtube.com/watch?v=H2dbPJDMqPg"
+    },
+    {
+      news: "Lab welcomes new members Mr. Hari Prasath, Mr. Deepak, Ms. Harshitha and Ms. Anjali",
+    },
+    {
+      news: "Vacancy : Students passionate about programming and Neuroscience can contact us",
+    }
   ];
 
   // Start autoplay
@@ -84,7 +111,29 @@ function Home() {
               <div className="bulletin-scroll-content">
                 <ul>
                   {bulletinItems.concat(bulletinItems).map((item, index) => (
-                    <li key={index}>{item}</li>
+                    <li key={index}>
+                      {item.news}{" "}
+                      {item.link && (
+                        <a
+                          href={item.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="news-link"
+                        >
+                          [Link]
+                        </a>
+                      )}
+                      {item.link2 && (
+                        <a
+                          href={item.link2}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="news-link"
+                        >
+                          [Link2]
+                        </a>
+                      )}
+                    </li>
                   ))}
                 </ul>
               </div>

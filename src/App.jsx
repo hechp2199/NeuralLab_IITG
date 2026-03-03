@@ -27,7 +27,7 @@ function Navbar() {
       </div>
       <div className="nav-links">
         <Link to="/">Home</Link>
-        <Link to="/team">The Team</Link>
+        <Link to="/people">The Team</Link>
         <Link to="/publications">Publications</Link>
         <Link to="/research">Research</Link>
         <Link to="/courses">Teaching</Link>
@@ -58,13 +58,13 @@ function Footer() {
 
 function App() {
   return (
-    <BrowserRouter basename="/cngupta/"> {/** REMOVE THE 'basename="/cngupta/"' WHILE RUNNING APP IN LOCAL */}
+    <BrowserRouter> {/** REMOVE THE 'basename="/cngupta/"' WHILE RUNNING APP IN LOCAL */}
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/research" element={<Research />} />
-        <Route path="/team" element={<Team />} />
+        <Route path="/people" element={<Team />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/publications" element={<Publications />} />

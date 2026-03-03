@@ -48,3 +48,15 @@
 .news-link:hover {
   text-decoration: underline;
 }
+
+.year-section {
+  margin-bottom: 40px;
+}
+
+.year-heading {
+  font-size: 28px;
+  color: #004080;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #004080;
+  padding-bottom: 5px;
+}
