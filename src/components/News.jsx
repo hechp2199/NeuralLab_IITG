@@ -1,4 +1,5 @@
 import "./css/News.css";
+import { Link } from "react-router-dom";
 
 function News() {
   const newsList = [
@@ -22,7 +23,8 @@ function News() {
     },
     {
       date: "2025",
-      content: "Doli, Vishnu and Shivani's research works recognized at BRICS entrepreneur summit 2025 held at IIT Guwahati"
+      content: "Doli, Vishnu and Shivani's research works recognized at BRICS entrepreneur summit 2025 held at IIT Guwahati",
+      route: "/gallery"
     },
     {
       date: "2025",
@@ -152,6 +154,14 @@ function News() {
                     >
                       [Link2]
                     </a>
+                  )}
+                  {news.route && (
+                    <Link
+                      to={news.route}
+                      className="news-link"
+                    >
+                      [Link]
+                    </Link>
                   )}
                 </p>
               </li>

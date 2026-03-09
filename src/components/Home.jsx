@@ -37,9 +37,11 @@ function Home() {
     },
     {
       news: "Doli, Vishnu and Shivani's research works recognized at BRICS entrepreneur summit 2025 held at IIT Guwahati",
+      route: "/gallery"
     },
     {
       news: "Tanmayee defends her PhD thesis and bags a Postdoc position at Karolinska Institutet, Sweden",
+      link: "https://ki.se/personer/tanmayee-samantaray"
     },
     {
       news: "Shivani and Perween bag placement offers from reputed Deloitte as Data Analyst",
@@ -133,6 +135,14 @@ function Home() {
                           [Link2]
                         </a>
                       )}
+                      {item.route && (
+                        <Link
+                          to={item.route}
+                          className="news-link"
+                        >
+                          [Link]
+                        </Link>
+                      )}
                     </li>
                   ))}
                 </ul>
@@ -145,7 +155,7 @@ function Home() {
           <div className="research-focus-modern">
             <h2>🔬 Research Focus</h2>
             <p>
-              Broadly the research lab's current focus is two-fold namely <a href='/research'><b>EEG-based applications</b></a> and <a href='/research'><b>sMRI-based applications</b></a>.
+              Broadly the research lab's current focus is two-fold namely <Link to='/research'><b>EEG-based applications</b></Link> and <Link to='/research'><b>sMRI-based applications</b></Link>.
             </p>
             <p>
               If this activates your neurons and you see common interest, please drop me an email for B.Tech/M.Tech projects with grade sheets (Opens every summer in my lab). For PhD, please send a One page Research Statement and your college grade sheets. Also apply formally to IITG-BSBE PhD program.

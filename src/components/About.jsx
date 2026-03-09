@@ -78,17 +78,17 @@ function About() {
         </ul>
       </div>
 
-      <div className="pi-section">
+      {/* <div className="pi-section">
         <h3>Selected Publications</h3>
         <ul>
           <li>Gupta, C. N., Turner, J. A., & Calhoun, V. D. (2018). Source-Based Morphometry: Data-Driven Multivariate Analysis of Structural Brain Imaging Data. In Brain Morphometry (pp. 105-120). Humana Press, New York, NY</li>
           <li>C. N. Gupta and R. Palaniappan, “Using high-frequency electroencephalogram in visual and auditory-based brain-computer interface designs,” EContact! 14.3 " Biotechnological Performance Practice, Canadian Electroacoustic Society, June 2012</li>
           <li>C.N.Gupta and R.Palaniappan “Concerns on global security: moving towards fool-proof authentication system using brain signals” IEEE Gold, July issue, 2009</li>
         </ul>
-      </div>
+      </div> */}
 
       <div className="pi-section">
-        <h3>Special Journal Issues</h3>
+        <h3>Special Journal Issues Edited</h3>
         <ul>
           <li>Improving Decoding of Neuroinformation: Towards the Diversity of Neural Engineering Applications</li> <a href='https://www.frontiersin.org/research-topics/42846/improving-decoding-of-neuroinformation-towards-the-diversity-of-neural-engineering-applications'>[Link]</a>
           <li>Biomarkers Identification for Neurological Diseases and Neurorehabilitation</li> <a href='https://www.mdpi.com/journal/brainsci/special_issues/YNZNTK0EJ5'>[Link]</a>

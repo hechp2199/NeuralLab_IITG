@@ -306,7 +306,7 @@ function Team() {
                     )}
                   </div>
                   {member.profile && (
-                    <Link style={{ fontSize: '0.9rem', color: '#0066cc' }} to={member?.profile}>About PI</Link>
+                    <Link style={{ fontSize: '1rem', color: '#0066cc' }} to={member?.profile}>About PI</Link>
                   )}
                 </div>
               ))}
