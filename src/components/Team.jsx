@@ -57,6 +57,22 @@ const teamData = {
       linkedin: "https://www.linkedin.com/in/hari-prasath-b-b83188158/"
     },
     {
+      name: "Krati Patel",
+      role: "MTech Student",
+      info: "",
+      image: "./images/profile_pic/krati.jpg",
+      scholar: "",
+      linkedin: ""
+    },
+    {
+      name: "Angelin K Sunny",
+      role: "MTech Student",
+      info: "",
+      image: "./images/profile_pic/angelin.jpg",
+      scholar: "",
+      linkedin: ""
+    },
+    {
       name: "Sura Sura Anjali",
       role: "BTech Student",
       info: "",
